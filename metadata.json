@@ -1,0 +1,8 @@
+{
+  "name": "Helix AGI-OS Cortical Dashboard",
+  "description": "High-fidelity AGI orchestration system featuring Cortical Gateway security, Stem-Cell Neuro-Highway execution, and Quantum Health Song telemetry.",
+  "requestFramePermissions": ["microphone"],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

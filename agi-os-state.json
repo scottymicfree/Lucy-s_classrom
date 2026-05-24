@@ -1,0 +1,2255 @@
+{
+  "rings": {
+    "ring0": {
+      "merkleRoot": "0xE60E501ED1E14A8F",
+      "walSize": 838.5000000000239,
+      "lastAttestedAt": "2026-05-23T15:45:55.298Z",
+      "journal": [
+        "[ATTESTATION] Block verified. Prev: 0x2F7B... New: 0xB8B6...",
+        "[ATTESTATION] Block verified. Prev: 0xB8B6... New: 0xC4FC...",
+        "[ATTESTATION] Block verified. Prev: 0xC4FC... New: 0x6B58...",
+        "[ATTESTATION] Block verified. Prev: 0x6B58... New: 0x2354...",
+        "[ATTESTATION] Block verified. Prev: 0x2354... New: 0xBA97...",
+        "[ATTESTATION] Block verified. Prev: 0xBA97... New: 0x6471...",
+        "[ATTESTATION] Block verified. Prev: 0x6471... New: 0x7640...",
+        "[ATTESTATION] Block verified. Prev: 0x7640... New: 0x180A...",
+        "[ATTESTATION] Block verified. Prev: 0x180A... New: 0xBC21...",
+        "[ATTESTATION] Block verified. Prev: 0xBC21... New: 0x384F...",
+        "[ATTESTATION] Block verified. Prev: 0x384F... New: 0x7E4E...",
+        "[ATTESTATION] Block verified. Prev: 0x7E4E... New: 0x8B78...",
+        "[ATTESTATION] Block verified. Prev: 0x8B78... New: 0xA5AC...",
+        "[ATTESTATION] Block verified. Prev: 0xA5AC... New: 0xA716...",
+        "[ATTESTATION] Block verified. Prev: 0xA716... New: 0x1F57...",
+        "[ATTESTATION] Block verified. Prev: 0x1F57... New: 0xD822...",
+        "[ATTESTATION] Block verified. Prev: 0xD822... New: 0x3FFC...",
+        "[ATTESTATION] Block verified. Prev: 0x3FFC... New: 0x8B11...",
+        "[ATTESTATION] Block verified. Prev: 0x8B11... New: 0x1DF7...",
+        "[ATTESTATION] Block verified. Prev: 0x1DF7... New: 0xE60E..."
+      ]
+    },
+    "ring1": {
+      "trainedModels": [],
+      "activePlans": [],
+      "systemStatus": "Idle"
+    },
+    "ring2": {
+      "memoryEntries": [
+        {
+          "id": "mem-001",
+          "type": "Pattern",
+          "content": "Initial Helix-Kernel bootstrap sequence verified.",
+          "timestamp": "2026-05-19T13:24:43.926Z",
+          "links": [
+            "mem-002"
+          ]
+        },
+        {
+          "id": "mem-002",
+          "type": "Observation",
+          "content": "Ring-3 allocation efficiency within nominal parameters.",
+          "timestamp": "2026-05-19T13:24:43.926Z",
+          "links": [
+            "mem-001"
+          ]
+        }
+      ]
+    },
+    "ring3": {
+      "instances": [
+        {
+          "id": "b7876a8f-4468-42ff-86b6-0ea1653a15c7",
+          "name": "Helix-Proto-653",
+          "status": "Idle",
+          "lifecycle": "Undifferentiated",
+          "logs": [
+            "[HELIX-OS] INTAKE: Neuro-Highway context stream active...",
+            "[HELIX-OS] CONTEXT: \"Initial Helix-Kernel bootstrap sequence verified. | Ring-3 a...\"",
+            "[HELIX-OS] DIFFERENTIATION: Stem-cell evolving into Memory Worker.",
+            "[SECURITY] Session established: SES-D32F27F7",
+            "[EXEC] Running specialized task in Memory domain.",
+            "[EXEC] JIT Compiling Memory module...",
+            "[ERROR] Critical Memory failure: WASM binary failed static structural validation. Payload rejected.",
+            "[SECURITY] TASK COMPLETE: Initiating full memory scrub...",
+            "[SECURITY] PURGING: Clearing stack, registers, and context heap.",
+            "[SECURITY] SCRUB COMPLETE: Pool returned to undifferentiated state."
+          ],
+          "deployedAt": "2026-05-19T15:25:04.330Z",
+          "wasmBuffer": "AGFzbQEAAAABBwFgAn9/AX8DAgEABwcBA3J1bgAAChYBFAB/AAsiACEDIAEgAigAACIDIAIQAAs=",
+          "attestationToken": "ATT-8661A145",
+          "memoryUsage": 0,
+          "duration": 4.591800000052899
+        },
+        {
+          "id": "d981c200-fc81-42bc-8966-8364ff7d7873",
+          "name": "Helix-Proto-173",
+          "status": "Idle",
+          "lifecycle": "Undifferentiated",
+          "logs": [
+            "[HELIX-OS] INTAKE: Neuro-Highway context stream active...",
+            "[HELIX-OS] CONTEXT: \"Initial Helix-Kernel bootstrap sequence verified. | Ring-3 a...\"",
+            "[HELIX-OS] DIFFERENTIATION: Stem-cell evolving into Logic Worker.",
+            "[SECURITY] Session established: SES-E901D547",
+            "[EXEC] Running specialized task in Logic domain.",
+            "[EXEC] JIT Compiling Logic module...",
+            "[ERROR] Critical Logic failure: WASM binary failed static structural validation. Payload rejected.",
+            "[SECURITY] TASK COMPLETE: Initiating full memory scrub...",
+            "[SECURITY] PURGING: Clearing stack, registers, and context heap.",
+            "[SECURITY] SCRUB COMPLETE: Pool returned to undifferentiated state."
+          ],
+          "deployedAt": "2026-05-19T15:25:05.251Z",
+          "wasmBuffer": "AGFzbQEAAAABBwFgAn9/AX8DAgEABwcBA3J1bgAAChYBFAB/AAsiACEDIAEgAigAACIDIAIQAAs=",
+          "attestationToken": "ATT-6C329E37",
+          "memoryUsage": 0,
+          "duration": 0.48530000005848706
+        },
+        {
+          "id": "b887813e-3190-40e6-9959-dcec0fd7e09b",
+          "name": "Helix-Proto-362",
+          "status": "Idle",
+          "lifecycle": "Undifferentiated",
+          "logs": [
+            "[HELIX-OS] INTAKE: Neuro-Highway context stream active...",
+            "[HELIX-OS] CONTEXT: \"Initial Helix-Kernel bootstrap sequence verified. | Ring-3 a...\"",
+            "[HELIX-OS] DIFFERENTIATION: Stem-cell evolving into Creative Worker.",
+            "[SECURITY] Session established: SES-A26C57B3",
+            "[EXEC] Running specialized task in Creative domain.",
+            "[EXEC] JIT Compiling Creative module...",
+            "[ERROR] Critical Creative failure: WASM binary failed static structural validation. Payload rejected.",
+            "[SECURITY] TASK COMPLETE: Initiating full memory scrub...",
+            "[SECURITY] PURGING: Clearing stack, registers, and context heap.",
+            "[SECURITY] SCRUB COMPLETE: Pool returned to undifferentiated state."
+          ],
+          "deployedAt": "2026-05-19T15:25:05.965Z",
+          "wasmBuffer": "AGFzbQEAAAABBwFgAn9/AX8DAgEABwcBA3J1bgAAChYBFAB/AAsiACEDIAEgAigAACIDIAIQAAs=",
+          "attestationToken": "ATT-2E5FB0E2",
+          "memoryUsage": 0,
+          "duration": 0.5267999998759478
+        },
+        {
+          "id": "bbea18ca-d36e-4775-b53a-d2ea2f23deba",
+          "name": "Helix-Proto-762",
+          "status": "Idle",
+          "lifecycle": "Undifferentiated",
+          "logs": [
+            "[HELIX-OS] INTAKE: Neuro-Highway context stream active...",
+            "[HELIX-OS] CONTEXT: \"Initial Helix-Kernel bootstrap sequence verified. | Ring-3 a...\"",
+            "[HELIX-OS] DIFFERENTIATION: Stem-cell evolving into Logic Worker.",
+            "[SECURITY] Session established: SES-47353C8D",
+            "[EXEC] Running specialized task in Logic domain.",
+            "[EXEC] JIT Compiling Logic module...",
+            "[ERROR] Critical Logic failure: WASM binary failed static structural validation. Payload rejected.",
+            "[SECURITY] TASK COMPLETE: Initiating full memory scrub...",
+            "[SECURITY] PURGING: Clearing stack, registers, and context heap.",
+            "[SECURITY] SCRUB COMPLETE: Pool returned to undifferentiated state."
+          ],
+          "deployedAt": "2026-05-20T02:37:31.294Z",
+          "wasmBuffer": "AGFzbQEAAAABBwFgAn9/AX8DAgEABwcBA3J1bgAAChYBFAB/AAsiACEDIAEgAigAACIDIAIQAAs=",
+          "attestationToken": "ATT-C713297A",
+          "memoryUsage": 0,
+          "duration": 0.5678000000771135
+        },
+        {
+          "id": "wj8mq2txs",
+          "name": "Architect: Alpha",
+          "status": "Idle",
+          "logs": [
+            "[SECURITY] SCRUB COMPLETE: Pool returned to undifferentiated state.",
+            "[HELIX-OS] INTAKE: Neuro-Highway context stream active...",
+            "[HELIX-OS] CONTEXT: \"Initial Helix-Kernel bootstrap sequence verified. | Ring-3 a...\"",
+            "[HELIX-OS] DIFFERENTIATION: Stem-cell evolving into Logic Worker.",
+            "[SECURITY] Session established: SES-763A2D6A",
+            "[EXEC] Running specialized task in Logic domain.",
+            "[ERROR] Critical Logic failure: Missing binary context in stem-cell pool.",
+            "[SECURITY] TASK COMPLETE: Initiating full memory scrub...",
+            "[SECURITY] PURGING: Clearing stack, registers, and context heap.",
+            "[SECURITY] SCRUB COMPLETE: Pool returned to undifferentiated state.",
+            "[HELIX-OS] INTAKE: Neuro-Highway context stream active...",
+            "[HELIX-OS] CONTEXT: \"Initial Helix-Kernel bootstrap sequence verified. | Ring-3 a...\"",
+            "[HELIX-OS] DIFFERENTIATION: Stem-cell evolving into Memory Worker.",
+            "[SECURITY] Session established: SES-365CA3DB",
+            "[EXEC] Running specialized task in Memory domain.",
+            "[ERROR] Critical Memory failure: Missing binary context in stem-cell pool.",
+            "[SECURITY] TASK COMPLETE: Initiating full memory scrub...",
+            "[SECURITY] PURGING: Clearing stack, registers, and context heap.",
+            "[SECURITY] SCRUB COMPLETE: Pool returned to undifferentiated state."
+          ],
+          "deployedAt": "2026-05-20T05:34:28.072Z",
+          "lifecycle": "Undifferentiated",
+          "duration": 0.5381000000052154
+        },
+        {
+          "id": "5v6ivdbnr",
+          "name": "Optimizer: Sigma",
+          "status": "Idle",
+          "logs": [
+            "Swarm agent initialized: Optimizer",
+            "[HELIX-OS] INTAKE: Neuro-Highway context stream active...",
+            "[HELIX-OS] CONTEXT: \"Initial Helix-Kernel bootstrap sequence verified. | Ring-3 a...\"",
+            "[HELIX-OS] DIFFERENTIATION: Stem-cell evolving into Creative Worker.",
+            "[SECURITY] Session established: SES-E09A6322",
+            "[EXEC] Running specialized task in Creative domain.",
+            "[ERROR] Critical Creative failure: Missing binary context in stem-cell pool.",
+            "[SECURITY] TASK COMPLETE: Initiating full memory scrub...",
+            "[SECURITY] PURGING: Clearing stack, registers, and context heap.",
+            "[SECURITY] SCRUB COMPLETE: Pool returned to undifferentiated state.",
+            "[HELIX-OS] INTAKE: Neuro-Highway context stream active...",
+            "[HELIX-OS] CONTEXT: \"Initial Helix-Kernel bootstrap sequence verified. | Ring-3 a...\"",
+            "[HELIX-OS] DIFFERENTIATION: Stem-cell evolving into Security Worker.",
+            "[SECURITY] Session established: SES-7CEE5D84",
+            "[EXEC] Running specialized task in Security domain.",
+            "[ERROR] Critical Security failure: Missing binary context in stem-cell pool.",
+            "[SECURITY] TASK COMPLETE: Initiating full memory scrub...",
+            "[SECURITY] PURGING: Clearing stack, registers, and context heap.",
+            "[SECURITY] SCRUB COMPLETE: Pool returned to undifferentiated state."
+          ],
+          "deployedAt": "2026-05-20T05:34:28.072Z",
+          "lifecycle": "Undifferentiated",
+          "duration": 0.5817000000970438
+        },
+        {
+          "id": "9efo0csas",
+          "name": "Auditor: Omega",
+          "status": "Idle",
+          "logs": [
+            "Swarm agent initialized: Auditor",
+            "[HELIX-OS] INTAKE: Neuro-Highway context stream active...",
+            "[HELIX-OS] CONTEXT: \"Initial Helix-Kernel bootstrap sequence verified. | Ring-3 a...\"",
+            "[HELIX-OS] DIFFERENTIATION: Stem-cell evolving into Security Worker.",
+            "[SECURITY] Session established: SES-505A7B3F",
+            "[EXEC] Running specialized task in Security domain.",
+            "[ERROR] Critical Security failure: Missing binary context in stem-cell pool.",
+            "[SECURITY] TASK COMPLETE: Initiating full memory scrub...",
+            "[SECURITY] PURGING: Clearing stack, registers, and context heap.",
+            "[SECURITY] SCRUB COMPLETE: Pool returned to undifferentiated state.",
+            "[HELIX-OS] INTAKE: Neuro-Highway context stream active...",
+            "[HELIX-OS] CONTEXT: \"Initial Helix-Kernel bootstrap sequence verified. | Ring-3 a...\"",
+            "[HELIX-OS] DIFFERENTIATION: Stem-cell evolving into Creative Worker.",
+            "[SECURITY] Session established: SES-7327585D",
+            "[EXEC] Running specialized task in Creative domain.",
+            "[ERROR] Critical Creative failure: Missing binary context in stem-cell pool.",
+            "[SECURITY] TASK COMPLETE: Initiating full memory scrub...",
+            "[SECURITY] PURGING: Clearing stack, registers, and context heap.",
+            "[SECURITY] SCRUB COMPLETE: Pool returned to undifferentiated state."
+          ],
+          "deployedAt": "2026-05-20T05:34:28.072Z",
+          "lifecycle": "Undifferentiated",
+          "duration": 0.42770000000018626
+        },
+        {
+          "id": "90a05f16-b8d2-4425-a971-8dbdc035a897",
+          "name": "My-Helix-Project",
+          "status": "Idle",
+          "lifecycle": "Undifferentiated",
+          "logs": [
+            "[CORTICAL-GATEWAY] Absolute Perimeter Check: PASSED.",
+            "[CORTICAL-GATEWAY] CAUTION: Anonymous module detected.",
+            "[SYSTEM] Pluripotent stem-cell pool 90a05f16-b8d2-4425-a971-8dbdc035a897 provisioned in Ring 3.",
+            "[SYSTEM] Awaiting Neuro-Highway context for differentiation.",
+            "[SECURITY] Behavioral monitor initialized for instance scope.",
+            "[SYSTEM] WASM payload size: 0.05 KB detected.",
+            "[HELIX-OS] INTAKE: Neuro-Highway context stream active...",
+            "[HELIX-OS] CONTEXT: \"Initial Helix-Kernel bootstrap sequence verified. | Ring-3 a...\"",
+            "[HELIX-OS] DIFFERENTIATION: Stem-cell evolving into Security Worker.",
+            "[SECURITY] Session established: SES-5956ADA3",
+            "[EXEC] Running specialized task in Security domain.",
+            "[EXEC] JIT Compiling Security module...",
+            "[ERROR] Critical Security failure: WASM binary failed static structural validation. Payload rejected.",
+            "[SECURITY] TASK COMPLETE: Initiating full memory scrub...",
+            "[SECURITY] PURGING: Clearing stack, registers, and context heap.",
+            "[SECURITY] SCRUB COMPLETE: Pool returned to undifferentiated state."
+          ],
+          "deployedAt": "2026-05-20T05:39:14.444Z",
+          "wasmBuffer": "AGFzbQEAAAABBwFgAn9/AX8DAgEABwcBA3J1bgAAChYBFAB/AAsiACEDIAEgAigAACIDIAIQAAs=",
+          "attestationToken": "ATT-0F7C69F7",
+          "memoryUsage": 0,
+          "duration": 0.5498999999836087
+        },
+        {
+          "id": "e1694e23-2e12-40c6-852b-55c5d00d2090",
+          "name": "My-Helix-Project",
+          "status": "Idle",
+          "lifecycle": "Undifferentiated",
+          "logs": [
+            "[CORTICAL-GATEWAY] Absolute Perimeter Check: PASSED.",
+            "[CORTICAL-GATEWAY] CAUTION: Anonymous module detected.",
+            "[SYSTEM] Pluripotent stem-cell pool e1694e23-2e12-40c6-852b-55c5d00d2090 provisioned in Ring 3.",
+            "[SYSTEM] Awaiting Neuro-Highway context for differentiation.",
+            "[SECURITY] Behavioral monitor initialized for instance scope.",
+            "[SYSTEM] WASM payload size: 0.05 KB detected.",
+            "[HELIX-OS] INTAKE: Neuro-Highway context stream active...",
+            "[HELIX-OS] CONTEXT: \"Initial Helix-Kernel bootstrap sequence verified. | Ring-3 a...\"",
+            "[HELIX-OS] DIFFERENTIATION: Stem-cell evolving into Logic Worker.",
+            "[SECURITY] Session established: SES-B0D67D6E",
+            "[EXEC] Running specialized task in Logic domain.",
+            "[EXEC] JIT Compiling Logic module...",
+            "[ERROR] Critical Logic failure: WASM binary failed static structural validation. Payload rejected.",
+            "[SECURITY] TASK COMPLETE: Initiating full memory scrub...",
+            "[SECURITY] PURGING: Clearing stack, registers, and context heap.",
+            "[SECURITY] SCRUB COMPLETE: Pool returned to undifferentiated state."
+          ],
+          "deployedAt": "2026-05-20T05:48:12.759Z",
+          "wasmBuffer": "AGFzbQEAAAABBwFgAn9/AX8DAgEABwcBA3J1bgAAChYBFAB/AAsiACEDIAEgAigAACIDIAIQAAs=",
+          "attestationToken": "ATT-585CF37C",
+          "memoryUsage": 0,
+          "duration": 0.659999999916181
+        },
+        {
+          "id": "7f100fbc-8eeb-4e82-8acf-4257c64a09e5",
+          "name": "My-Helix-Project",
+          "status": "Idle",
+          "lifecycle": "Undifferentiated",
+          "logs": [
+            "[CORTICAL-GATEWAY] Absolute Perimeter Check: PASSED.",
+            "[CORTICAL-GATEWAY] CAUTION: Anonymous module detected.",
+            "[SYSTEM] Pluripotent stem-cell pool 7f100fbc-8eeb-4e82-8acf-4257c64a09e5 provisioned in Ring 3.",
+            "[SYSTEM] Awaiting Neuro-Highway context for differentiation.",
+            "[SECURITY] Behavioral monitor initialized for instance scope.",
+            "[SYSTEM] WASM payload size: 0.05 KB detected.",
+            "[HELIX-OS] INTAKE: Neuro-Highway context stream active...",
+            "[HELIX-OS] CONTEXT: \"Initial Helix-Kernel bootstrap sequence verified. | Ring-3 a...\"",
+            "[HELIX-OS] DIFFERENTIATION: Stem-cell evolving into Logic Worker.",
+            "[SECURITY] Session established: SES-42A71BB5",
+            "[EXEC] Running specialized task in Logic domain.",
+            "[EXEC] JIT Compiling Logic module...",
+            "[ERROR] Critical Logic failure: WASM binary failed static structural validation. Payload rejected.",
+            "[SECURITY] TASK COMPLETE: Initiating full memory scrub...",
+            "[SECURITY] PURGING: Clearing stack, registers, and context heap.",
+            "[SECURITY] SCRUB COMPLETE: Pool returned to undifferentiated state."
+          ],
+          "deployedAt": "2026-05-20T05:48:14.634Z",
+          "wasmBuffer": "AGFzbQEAAAABBwFgAn9/AX8DAgEABwcBA3J1bgAAChYBFAB/AAsiACEDIAEgAigAACIDIAIQAAs=",
+          "attestationToken": "ATT-0FA0A57C",
+          "memoryUsage": 0,
+          "duration": 0.48010000004433095
+        },
+        {
+          "id": "79d205bd-a2e1-41e2-b68b-fab6f6c2a161",
+          "name": "My-Helix-Project",
+          "status": "Idle",
+          "lifecycle": "Undifferentiated",
+          "logs": [
+            "[CORTICAL-GATEWAY] Absolute Perimeter Check: PASSED.",
+            "[CORTICAL-GATEWAY] CAUTION: Anonymous module detected.",
+            "[SYSTEM] Pluripotent stem-cell pool 79d205bd-a2e1-41e2-b68b-fab6f6c2a161 provisioned in Ring 3.",
+            "[SYSTEM] Awaiting Neuro-Highway context for differentiation.",
+            "[SECURITY] Behavioral monitor initialized for instance scope.",
+            "[SYSTEM] WASM payload size: 0.05 KB detected.",
+            "[HELIX-OS] INTAKE: Neuro-Highway context stream active...",
+            "[HELIX-OS] CONTEXT: \"Initial Helix-Kernel bootstrap sequence verified. | Ring-3 a...\"",
+            "[HELIX-OS] DIFFERENTIATION: Stem-cell evolving into Memory Worker.",
+            "[SECURITY] Session established: SES-EBF3617F",
+            "[EXEC] Running specialized task in Memory domain.",
+            "[EXEC] JIT Compiling Memory module...",
+            "[ERROR] Critical Memory failure: WASM binary failed static structural validation. Payload rejected.",
+            "[SECURITY] TASK COMPLETE: Initiating full memory scrub...",
+            "[SECURITY] PURGING: Clearing stack, registers, and context heap.",
+            "[SECURITY] SCRUB COMPLETE: Pool returned to undifferentiated state."
+          ],
+          "deployedAt": "2026-05-20T05:48:20.724Z",
+          "wasmBuffer": "AGFzbQEAAAABBwFgAn9/AX8DAgEABwcBA3J1bgAAChYBFAB/AAsiACEDIAEgAigAACIDIAIQAAs=",
+          "attestationToken": "ATT-A57799EF",
+          "memoryUsage": 0,
+          "duration": 0.4686000000219792
+        },
+        {
+          "id": "10828e48-c7b6-456b-9c7e-863ef4beb94e",
+          "name": "My-Helix-Project",
+          "status": "Idle",
+          "lifecycle": "Undifferentiated",
+          "logs": [
+            "[CORTICAL-GATEWAY] Absolute Perimeter Check: PASSED.",
+            "[CORTICAL-GATEWAY] CAUTION: Anonymous module detected.",
+            "[SYSTEM] Pluripotent stem-cell pool 10828e48-c7b6-456b-9c7e-863ef4beb94e provisioned in Ring 3.",
+            "[SYSTEM] Awaiting Neuro-Highway context for differentiation.",
+            "[SECURITY] Behavioral monitor initialized for instance scope.",
+            "[SYSTEM] WASM payload size: 0.05 KB detected.",
+            "[HELIX-OS] INTAKE: Neuro-Highway context stream active...",
+            "[HELIX-OS] CONTEXT: \"Initial Helix-Kernel bootstrap sequence verified. | Ring-3 a...\"",
+            "[HELIX-OS] DIFFERENTIATION: Stem-cell evolving into Security Worker.",
+            "[SECURITY] Session established: SES-0D298CAC",
+            "[EXEC] Running specialized task in Security domain.",
+            "[EXEC] JIT Compiling Security module...",
+            "[ERROR] Critical Security failure: WASM binary failed static structural validation. Payload rejected.",
+            "[SECURITY] TASK COMPLETE: Initiating full memory scrub...",
+            "[SECURITY] PURGING: Clearing stack, registers, and context heap.",
+            "[SECURITY] SCRUB COMPLETE: Pool returned to undifferentiated state."
+          ],
+          "deployedAt": "2026-05-20T05:48:27.751Z",
+          "wasmBuffer": "AGFzbQEAAAABBwFgAn9/AX8DAgEABwcBA3J1bgAAChYBFAB/AAsiACEDIAEgAigAACIDIAIQAAs=",
+          "attestationToken": "ATT-B8A555B3",
+          "memoryUsage": 0,
+          "duration": 0.4531999999890104
+        },
+        {
+          "id": "3448d100-50c1-4177-bdf3-1056f3d7766a",
+          "name": "My-Helix-Project",
+          "status": "Idle",
+          "lifecycle": "Undifferentiated",
+          "logs": [
+            "[CORTICAL-GATEWAY] Absolute Perimeter Check: PASSED.",
+            "[CORTICAL-GATEWAY] CAUTION: Anonymous module detected.",
+            "[SYSTEM] Pluripotent stem-cell pool 3448d100-50c1-4177-bdf3-1056f3d7766a provisioned in Ring 3.",
+            "[SYSTEM] Awaiting Neuro-Highway context for differentiation.",
+            "[SECURITY] Behavioral monitor initialized for instance scope.",
+            "[SYSTEM] WASM payload size: 0.05 KB detected.",
+            "[HELIX-OS] INTAKE: Neuro-Highway context stream active...",
+            "[HELIX-OS] CONTEXT: \"Initial Helix-Kernel bootstrap sequence verified. | Ring-3 a...\"",
+            "[HELIX-OS] DIFFERENTIATION: Stem-cell evolving into Memory Worker.",
+            "[SECURITY] Session established: SES-1FEADDC9",
+            "[EXEC] Running specialized task in Memory domain.",
+            "[EXEC] JIT Compiling Memory module...",
+            "[ERROR] Critical Memory failure: WASM binary failed static structural validation. Payload rejected.",
+            "[SECURITY] TASK COMPLETE: Initiating full memory scrub...",
+            "[SECURITY] PURGING: Clearing stack, registers, and context heap.",
+            "[SECURITY] SCRUB COMPLETE: Pool returned to undifferentiated state."
+          ],
+          "deployedAt": "2026-05-20T05:48:34.795Z",
+          "wasmBuffer": "AGFzbQEAAAABBwFgAn9/AX8DAgEABwcBA3J1bgAAChYBFAB/AAsiACEDIAEgAigAACIDIAIQAAs=",
+          "attestationToken": "ATT-F6A142D0",
+          "memoryUsage": 0,
+          "duration": 0.7196999998996034
+        },
+        {
+          "id": "9a31f06a-586c-4929-b1bc-96fc4850b712",
+          "name": "My-Helix-Project",
+          "status": "Idle",
+          "lifecycle": "Undifferentiated",
+          "logs": [
+            "[CORTICAL-GATEWAY] Absolute Perimeter Check: PASSED.",
+            "[CORTICAL-GATEWAY] CAUTION: Anonymous module detected.",
+            "[SYSTEM] Pluripotent stem-cell pool 9a31f06a-586c-4929-b1bc-96fc4850b712 provisioned in Ring 3.",
+            "[SYSTEM] Awaiting Neuro-Highway context for differentiation.",
+            "[SECURITY] Behavioral monitor initialized for instance scope.",
+            "[SYSTEM] WASM payload size: 0.05 KB detected.",
+            "[HELIX-OS] INTAKE: Neuro-Highway context stream active...",
+            "[HELIX-OS] CONTEXT: \"Initial Helix-Kernel bootstrap sequence verified. | Ring-3 a...\"",
+            "[HELIX-OS] DIFFERENTIATION: Stem-cell evolving into Security Worker.",
+            "[SECURITY] Session established: SES-978307AB",
+            "[EXEC] Running specialized task in Security domain.",
+            "[EXEC] JIT Compiling Security module...",
+            "[ERROR] Critical Security failure: WASM binary failed static structural validation. Payload rejected.",
+            "[SECURITY] TASK COMPLETE: Initiating full memory scrub...",
+            "[SECURITY] PURGING: Clearing stack, registers, and context heap.",
+            "[SECURITY] SCRUB COMPLETE: Pool returned to undifferentiated state."
+          ],
+          "deployedAt": "2026-05-20T05:48:44.477Z",
+          "wasmBuffer": "AGFzbQEAAAABBwFgAn9/AX8DAgEABwcBA3J1bgAAChYBFAB/AAsiACEDIAEgAigAACIDIAIQAAs=",
+          "attestationToken": "ATT-DD222F10",
+          "memoryUsage": 0,
+          "duration": 0.4477999999653548
+        },
+        {
+          "id": "20bc6e7d-dbf1-4926-b869-9ff0537e4ae3",
+          "name": "My-Helix-Project",
+          "status": "Idle",
+          "lifecycle": "Undifferentiated",
+          "logs": [
+            "[CORTICAL-GATEWAY] Absolute Perimeter Check: PASSED.",
+            "[CORTICAL-GATEWAY] CAUTION: Anonymous module detected.",
+            "[SYSTEM] Pluripotent stem-cell pool 20bc6e7d-dbf1-4926-b869-9ff0537e4ae3 provisioned in Ring 3.",
+            "[SYSTEM] Awaiting Neuro-Highway context for differentiation.",
+            "[SECURITY] Behavioral monitor initialized for instance scope.",
+            "[SYSTEM] WASM payload size: 0.05 KB detected.",
+            "[HELIX-OS] INTAKE: Neuro-Highway context stream active...",
+            "[HELIX-OS] CONTEXT: \"Initial Helix-Kernel bootstrap sequence verified. | Ring-3 a...\"",
+            "[HELIX-OS] DIFFERENTIATION: Stem-cell evolving into Logic Worker.",
+            "[SECURITY] Session established: SES-8C805CB6",
+            "[EXEC] Running specialized task in Logic domain.",
+            "[EXEC] JIT Compiling Logic module...",
+            "[ERROR] Critical Logic failure: WASM binary failed static structural validation. Payload rejected.",
+            "[SECURITY] TASK COMPLETE: Initiating full memory scrub...",
+            "[SECURITY] PURGING: Clearing stack, registers, and context heap.",
+            "[SECURITY] SCRUB COMPLETE: Pool returned to undifferentiated state."
+          ],
+          "deployedAt": "2026-05-20T05:49:01.571Z",
+          "wasmBuffer": "AGFzbQEAAAABBwFgAn9/AX8DAgEABwcBA3J1bgAAChYBFAB/AAsiACEDIAEgAigAACIDIAIQAAs=",
+          "attestationToken": "ATT-3FBD1946",
+          "memoryUsage": 0,
+          "duration": 0.5065000000176951
+        },
+        {
+          "id": "2844229b-0628-4581-bcfc-25cd3b9d79dd",
+          "name": "My-Helix-Project",
+          "status": "Idle",
+          "lifecycle": "Undifferentiated",
+          "logs": [
+            "[CORTICAL-GATEWAY] Absolute Perimeter Check: PASSED.",
+            "[CORTICAL-GATEWAY] CAUTION: Anonymous module detected.",
+            "[SYSTEM] Pluripotent stem-cell pool 2844229b-0628-4581-bcfc-25cd3b9d79dd provisioned in Ring 3.",
+            "[SYSTEM] Awaiting Neuro-Highway context for differentiation.",
+            "[SECURITY] Behavioral monitor initialized for instance scope.",
+            "[SYSTEM] WASM payload size: 0.05 KB detected.",
+            "[HELIX-OS] INTAKE: Neuro-Highway context stream active...",
+            "[HELIX-OS] CONTEXT: \"Initial Helix-Kernel bootstrap sequence verified. | Ring-3 a...\"",
+            "[HELIX-OS] DIFFERENTIATION: Stem-cell evolving into Creative Worker.",
+            "[SECURITY] Session established: SES-53F92C01",
+            "[EXEC] Running specialized task in Creative domain.",
+            "[EXEC] JIT Compiling Creative module...",
+            "[ERROR] Critical Creative failure: WASM binary failed static structural validation. Payload rejected.",
+            "[SECURITY] TASK COMPLETE: Initiating full memory scrub...",
+            "[SECURITY] PURGING: Clearing stack, registers, and context heap.",
+            "[SECURITY] SCRUB COMPLETE: Pool returned to undifferentiated state."
+          ],
+          "deployedAt": "2026-05-20T05:49:07.425Z",
+          "wasmBuffer": "AGFzbQEAAAABBwFgAn9/AX8DAgEABwcBA3J1bgAAChYBFAB/AAsiACEDIAEgAigAACIDIAIQAAs=",
+          "attestationToken": "ATT-4F5F6415",
+          "memoryUsage": 0,
+          "duration": 0.44209999998565763
+        },
+        {
+          "id": "55755666-baf7-44e4-962c-c4816e17c984",
+          "name": "My-Helix-Project",
+          "status": "Undifferentiated",
+          "lifecycle": "Undifferentiated",
+          "logs": [
+            "[CORTICAL-GATEWAY] Absolute Perimeter Check: PASSED.",
+            "[CORTICAL-GATEWAY] CAUTION: Anonymous module detected.",
+            "[SYSTEM] Pluripotent stem-cell pool 55755666-baf7-44e4-962c-c4816e17c984 provisioned in Ring 3.",
+            "[SYSTEM] Awaiting Neuro-Highway context for differentiation.",
+            "[SECURITY] Behavioral monitor initialized for instance scope.",
+            "[SYSTEM] WASM payload size: 0.05 KB detected."
+          ],
+          "deployedAt": "2026-05-20T05:50:52.848Z",
+          "wasmBuffer": "AGFzbQEAAAABBwFgAn9/AX8DAgEABwcBA3J1bgAAChYBFAB/AAsiACEDIAEgAigAACIDIAIQAAs=",
+          "attestationToken": "ATT-3C706560",
+          "memoryUsage": 0
+        },
+        {
+          "id": "517a94d0-48d0-4077-aff8-6a85a313385d",
+          "name": "D:\\aegis-pandora",
+          "status": "Idle",
+          "lifecycle": "Undifferentiated",
+          "logs": [
+            "[HELIX-OS] INTAKE: Neuro-Highway context stream active...",
+            "[HELIX-OS] CONTEXT: \"Initial Helix-Kernel bootstrap sequence verified. | Ring-3 a...\"",
+            "[HELIX-OS] DIFFERENTIATION: Stem-cell evolving into Logic Worker.",
+            "[SECURITY] Session established: SES-2CB2FC94",
+            "[EXEC] Running specialized task in Logic domain.",
+            "[EXEC] JIT Compiling Logic module...",
+            "[ERROR] Critical Logic failure: WASM binary failed static structural validation. Payload rejected.",
+            "[SECURITY] TASK COMPLETE: Initiating full memory scrub...",
+            "[SECURITY] PURGING: Clearing stack, registers, and context heap.",
+            "[SECURITY] SCRUB COMPLETE: Pool returned to undifferentiated state.",
+            "[HELIX-OS] INTAKE: Neuro-Highway context stream active...",
+            "[HELIX-OS] CONTEXT: \"Initial Helix-Kernel bootstrap sequence verified. | Ring-3 a...\"",
+            "[HELIX-OS] DIFFERENTIATION: Stem-cell evolving into Logic Worker.",
+            "[SECURITY] Session established: SES-BB6B868B",
+            "[EXEC] Running specialized task in Logic domain.",
+            "[EXEC] JIT Compiling Logic module...",
+            "[ERROR] Critical Logic failure: WASM binary failed static structural validation. Payload rejected.",
+            "[SECURITY] TASK COMPLETE: Initiating full memory scrub...",
+            "[SECURITY] PURGING: Clearing stack, registers, and context heap.",
+            "[SECURITY] SCRUB COMPLETE: Pool returned to undifferentiated state."
+          ],
+          "deployedAt": "2026-05-22T21:47:44.854Z",
+          "wasmBuffer": "AGFzbQEAAAABBwFgAn9/AX8DAgEABwcBA3J1bgAAChYBFAB/AAsiACEDIAEgAigAACIDIAIQAAs=",
+          "attestationToken": "ATT-84D717CC",
+          "memoryUsage": 0,
+          "duration": 0.5022999998182058
+        },
+        {
+          "id": "714fb0a9-1e85-4424-ac02-79304a4a118b",
+          "name": "Helix-Proto-869",
+          "status": "Undifferentiated",
+          "lifecycle": "Undifferentiated",
+          "logs": [
+            "[CORTICAL-GATEWAY] Absolute Perimeter Check: PASSED.",
+            "[CORTICAL-GATEWAY] CAUTION: Anonymous module detected.",
+            "[SYSTEM] Pluripotent stem-cell pool 714fb0a9-1e85-4424-ac02-79304a4a118b provisioned in Ring 3.",
+            "[SYSTEM] Awaiting Neuro-Highway context for differentiation.",
+            "[SECURITY] Behavioral monitor initialized for instance scope.",
+            "[SYSTEM] WASM payload size: 0.05 KB detected."
+          ],
+          "deployedAt": "2026-05-22T21:54:41.907Z",
+          "wasmBuffer": "AGFzbQEAAAABBwFgAn9/AX8DAgEABwcBA3J1bgAAChYBFAB/AAsiACEDIAEgAigAACIDIAIQAAs=",
+          "attestationToken": "ATT-0786A553",
+          "memoryUsage": 0
+        },
+        {
+          "id": "3a8430e8-f5b8-41e3-9425-9fb812e02140",
+          "name": "Helix-Proto-860",
+          "status": "Undifferentiated",
+          "lifecycle": "Undifferentiated",
+          "logs": [
+            "[CORTICAL-GATEWAY] Absolute Perimeter Check: PASSED.",
+            "[CORTICAL-GATEWAY] CAUTION: Anonymous module detected.",
+            "[SYSTEM] Pluripotent stem-cell pool 3a8430e8-f5b8-41e3-9425-9fb812e02140 provisioned in Ring 3.",
+            "[SYSTEM] Awaiting Neuro-Highway context for differentiation.",
+            "[SECURITY] Behavioral monitor initialized for instance scope.",
+            "[SYSTEM] WASM payload size: 0.05 KB detected."
+          ],
+          "deployedAt": "2026-05-22T21:54:45.034Z",
+          "wasmBuffer": "AGFzbQEAAAABBwFgAn9/AX8DAgEABwcBA3J1bgAAChYBFAB/AAsiACEDIAEgAigAACIDIAIQAAs=",
+          "attestationToken": "ATT-C987C779",
+          "memoryUsage": 0
+        },
+        {
+          "id": "69u8fl7nb",
+          "name": "Architect: Alpha",
+          "status": "Specializing",
+          "logs": [
+            "Swarm agent initialized: Architect"
+          ],
+          "deployedAt": "2026-05-22T22:08:38.957Z",
+          "lifecycle": "Specialized"
+        },
+        {
+          "id": "6j7nta287",
+          "name": "Optimizer: Sigma",
+          "status": "Specializing",
+          "logs": [
+            "Swarm agent initialized: Optimizer"
+          ],
+          "deployedAt": "2026-05-22T22:08:38.957Z",
+          "lifecycle": "Specialized"
+        },
+        {
+          "id": "1y6ase3ue",
+          "name": "Auditor: Omega",
+          "status": "Specializing",
+          "logs": [
+            "Swarm agent initialized: Auditor"
+          ],
+          "deployedAt": "2026-05-22T22:08:38.957Z",
+          "lifecycle": "Specialized"
+        },
+        {
+          "id": "xc372n79n",
+          "name": "Architect: Alpha",
+          "status": "Specializing",
+          "logs": [
+            "Swarm agent initialized: Architect"
+          ],
+          "deployedAt": "2026-05-22T22:12:15.056Z",
+          "lifecycle": "Specialized"
+        },
+        {
+          "id": "8qupg5cw2",
+          "name": "Optimizer: Sigma",
+          "status": "Specializing",
+          "logs": [
+            "Swarm agent initialized: Optimizer"
+          ],
+          "deployedAt": "2026-05-22T22:12:15.056Z",
+          "lifecycle": "Specialized"
+        },
+        {
+          "id": "n9h799s87",
+          "name": "Auditor: Omega",
+          "status": "Specializing",
+          "logs": [
+            "Swarm agent initialized: Auditor"
+          ],
+          "deployedAt": "2026-05-22T22:12:15.056Z",
+          "lifecycle": "Specialized"
+        },
+        {
+          "id": "3e7b5ed7-aea5-4238-a8df-1a0038ec2ca8",
+          "name": "D:\\aegis-pandora",
+          "status": "Undifferentiated",
+          "lifecycle": "Undifferentiated",
+          "logs": [
+            "[CORTICAL-GATEWAY] Absolute Perimeter Check: PASSED.",
+            "[CORTICAL-GATEWAY] CAUTION: Anonymous module detected.",
+            "[SYSTEM] Pluripotent stem-cell pool 3e7b5ed7-aea5-4238-a8df-1a0038ec2ca8 provisioned in Ring 3.",
+            "[SYSTEM] Awaiting Neuro-Highway context for differentiation.",
+            "[SECURITY] Behavioral monitor initialized for instance scope.",
+            "[SYSTEM] WASM payload size: 0.05 KB detected."
+          ],
+          "deployedAt": "2026-05-22T22:13:30.985Z",
+          "wasmBuffer": "AGFzbQEAAAABBwFgAn9/AX8DAgEABwcBA3J1bgAAChYBFAB/AAsiACEDIAEgAigAACIDIAIQAAs=",
+          "attestationToken": "ATT-63379F26",
+          "memoryUsage": 0
+        },
+        {
+          "id": "8c139f4a-dc91-4f8a-99d4-94b3f2c31f70",
+          "name": "D:\\aegis-pandora",
+          "status": "Undifferentiated",
+          "lifecycle": "Undifferentiated",
+          "logs": [
+            "[CORTICAL-GATEWAY] Absolute Perimeter Check: PASSED.",
+            "[CORTICAL-GATEWAY] CAUTION: Anonymous module detected.",
+            "[SYSTEM] Pluripotent stem-cell pool 8c139f4a-dc91-4f8a-99d4-94b3f2c31f70 provisioned in Ring 3.",
+            "[SYSTEM] Awaiting Neuro-Highway context for differentiation.",
+            "[SECURITY] Behavioral monitor initialized for instance scope.",
+            "[SYSTEM] WASM payload size: 0.04 KB detected."
+          ],
+          "deployedAt": "2026-05-22T22:15:16.600Z",
+          "wasmBuffer": "AGFzbQEAAAABBQFgAAF/AwIBAAcHAQNydW4AAAoIAQcAIAEL",
+          "attestationToken": "ATT-D2193ABD",
+          "memoryUsage": 0
+        },
+        {
+          "id": "231533fa-4c8f-4a1c-afa8-e0fc63bb9080",
+          "name": "D:\\aegis-pandora",
+          "status": "Undifferentiated",
+          "lifecycle": "Undifferentiated",
+          "logs": [
+            "[CORTICAL-GATEWAY] Absolute Perimeter Check: PASSED.",
+            "[CORTICAL-GATEWAY] CAUTION: Anonymous module detected.",
+            "[SYSTEM] Pluripotent stem-cell pool 231533fa-4c8f-4a1c-afa8-e0fc63bb9080 provisioned in Ring 3.",
+            "[SYSTEM] Awaiting Neuro-Highway context for differentiation.",
+            "[SECURITY] Behavioral monitor initialized for instance scope.",
+            "[SYSTEM] WASM payload size: 0.04 KB detected."
+          ],
+          "deployedAt": "2026-05-22T22:15:24.139Z",
+          "wasmBuffer": "AGFzbQEAAAABBQFgAAF/AwIBAAcHAQNydW4AAAoIAQcAIAEL",
+          "attestationToken": "ATT-4000832F",
+          "memoryUsage": 0
+        },
+        {
+          "id": "f369c843-eba4-406c-b281-864c3ab4c531",
+          "name": "Helix-Proto-583",
+          "status": "Undifferentiated",
+          "lifecycle": "Undifferentiated",
+          "logs": [
+            "[CORTICAL-GATEWAY] Absolute Perimeter Check: PASSED.",
+            "[CORTICAL-GATEWAY] CAUTION: Anonymous module detected.",
+            "[SYSTEM] Pluripotent stem-cell pool f369c843-eba4-406c-b281-864c3ab4c531 provisioned in Ring 3.",
+            "[SYSTEM] Awaiting Neuro-Highway context for differentiation.",
+            "[SECURITY] Behavioral monitor initialized for instance scope.",
+            "[SYSTEM] WASM payload size: 0.05 KB detected."
+          ],
+          "deployedAt": "2026-05-22T22:15:47.470Z",
+          "wasmBuffer": "AGFzbQEAAAABBwFgAn9/AX8DAgEABwcBA3J1bgAAChYBFAB/AAsiACEDIAEgAigAACIDIAIQAAs=",
+          "attestationToken": "ATT-17E3248D",
+          "memoryUsage": 0
+        },
+        {
+          "id": "281d2afa-c0a7-4e2c-9472-d01ea6f87ccf",
+          "name": "D:\\aegis-pandora",
+          "status": "Undifferentiated",
+          "lifecycle": "Undifferentiated",
+          "logs": [
+            "[CORTICAL-GATEWAY] Absolute Perimeter Check: PASSED.",
+            "[CORTICAL-GATEWAY] CAUTION: Anonymous module detected.",
+            "[SYSTEM] Pluripotent stem-cell pool 281d2afa-c0a7-4e2c-9472-d01ea6f87ccf provisioned in Ring 3.",
+            "[SYSTEM] Awaiting Neuro-Highway context for differentiation.",
+            "[SECURITY] Behavioral monitor initialized for instance scope.",
+            "[SYSTEM] WASM payload size: 0.05 KB detected."
+          ],
+          "deployedAt": "2026-05-22T22:20:45.367Z",
+          "wasmBuffer": "AGFzbQEAAAABBwFgAn9/AX8DAgEABwcBA3J1bgAAChYBFAB/AAsiACEDIAEgAigAACIDIAIQAAs=",
+          "attestationToken": "ATT-B24F04D1",
+          "memoryUsage": 0
+        },
+        {
+          "id": "512f8d38-56e4-4e73-856e-89ed6ca33178",
+          "name": "D:\\aegis-pandora",
+          "status": "Undifferentiated",
+          "lifecycle": "Undifferentiated",
+          "logs": [
+            "[CORTICAL-GATEWAY] Absolute Perimeter Check: PASSED.",
+            "[CORTICAL-GATEWAY] CAUTION: Anonymous module detected.",
+            "[SYSTEM] Pluripotent stem-cell pool 512f8d38-56e4-4e73-856e-89ed6ca33178 provisioned in Ring 3.",
+            "[SYSTEM] Awaiting Neuro-Highway context for differentiation.",
+            "[SECURITY] Behavioral monitor initialized for instance scope.",
+            "[SYSTEM] WASM payload size: 0.05 KB detected."
+          ],
+          "deployedAt": "2026-05-22T22:21:25.074Z",
+          "wasmBuffer": "AGFzbQEAAAABBwFgAn9/AX8DAgEABwcBA3J1bgAAChYBFAB/AAsiACEDIAEgAigAACIDIAIQAAs=",
+          "attestationToken": "ATT-666F1A85",
+          "memoryUsage": 0
+        },
+        {
+          "id": "f9d01643-e4cb-45c1-abbd-e8442ee91b8c",
+          "name": "D:\\aegis-pandora",
+          "status": "Undifferentiated",
+          "lifecycle": "Undifferentiated",
+          "logs": [
+            "[CORTICAL-GATEWAY] Absolute Perimeter Check: PASSED.",
+            "[CORTICAL-GATEWAY] CAUTION: Anonymous module detected.",
+            "[SYSTEM] Pluripotent stem-cell pool f9d01643-e4cb-45c1-abbd-e8442ee91b8c provisioned in Ring 3.",
+            "[SYSTEM] Awaiting Neuro-Highway context for differentiation.",
+            "[SECURITY] Behavioral monitor initialized for instance scope.",
+            "[SYSTEM] WASM payload size: 0.05 KB detected."
+          ],
+          "deployedAt": "2026-05-22T22:21:31.589Z",
+          "wasmBuffer": "AGFzbQEAAAABBwFgAn9/AX8DAgEABwcBA3J1bgAAChYBFAB/AAsiACEDIAEgAigAACIDIAIQAAs=",
+          "attestationToken": "ATT-150E0336",
+          "memoryUsage": 0
+        },
+        {
+          "id": "90ad95d9-21b5-451c-9430-78d5782d9dde",
+          "name": "D:\\aegis-pandora",
+          "status": "Undifferentiated",
+          "lifecycle": "Undifferentiated",
+          "logs": [
+            "[CORTICAL-GATEWAY] Absolute Perimeter Check: PASSED.",
+            "[CORTICAL-GATEWAY] CAUTION: Anonymous module detected.",
+            "[SYSTEM] Pluripotent stem-cell pool 90ad95d9-21b5-451c-9430-78d5782d9dde provisioned in Ring 3.",
+            "[SYSTEM] Awaiting Neuro-Highway context for differentiation.",
+            "[SECURITY] Behavioral monitor initialized for instance scope.",
+            "[SYSTEM] WASM payload size: 0.05 KB detected."
+          ],
+          "deployedAt": "2026-05-22T22:21:51.961Z",
+          "wasmBuffer": "AGFzbQEAAAABBwFgAn9/AX8DAgEABwcBA3J1bgAAChYBFAB/AAsiACEDIAEgAigAACIDIAIQAAs=",
+          "attestationToken": "ATT-35CFA5C3",
+          "memoryUsage": 0
+        },
+        {
+          "id": "6cb4a7a9-dfb3-423a-935f-2d80a6171cab",
+          "name": "Helix-Proto-303",
+          "status": "Undifferentiated",
+          "lifecycle": "Undifferentiated",
+          "logs": [
+            "[CORTICAL-GATEWAY] Absolute Perimeter Check: PASSED.",
+            "[CORTICAL-GATEWAY] CAUTION: Anonymous module detected.",
+            "[SYSTEM] Pluripotent stem-cell pool 6cb4a7a9-dfb3-423a-935f-2d80a6171cab provisioned in Ring 3.",
+            "[SYSTEM] Awaiting Neuro-Highway context for differentiation.",
+            "[SECURITY] Behavioral monitor initialized for instance scope.",
+            "[SYSTEM] WASM payload size: 0.05 KB detected."
+          ],
+          "deployedAt": "2026-05-22T22:21:59.923Z",
+          "wasmBuffer": "AGFzbQEAAAABBwFgAn9/AX8DAgEABwcBA3J1bgAAChYBFAB/AAsiACEDIAEgAigAACIDIAIQAAs=",
+          "attestationToken": "ATT-B3D1E408",
+          "memoryUsage": 0
+        },
+        {
+          "id": "a8f825aa-7b3d-4cad-8670-e9fe94090946",
+          "name": "Helix-Proto-72",
+          "status": "Undifferentiated",
+          "lifecycle": "Undifferentiated",
+          "logs": [
+            "[CORTICAL-GATEWAY] Absolute Perimeter Check: PASSED.",
+            "[CORTICAL-GATEWAY] CAUTION: Anonymous module detected.",
+            "[SYSTEM] Pluripotent stem-cell pool a8f825aa-7b3d-4cad-8670-e9fe94090946 provisioned in Ring 3.",
+            "[SYSTEM] Awaiting Neuro-Highway context for differentiation.",
+            "[SECURITY] Behavioral monitor initialized for instance scope.",
+            "[SYSTEM] WASM payload size: 0.05 KB detected."
+          ],
+          "deployedAt": "2026-05-22T22:22:00.511Z",
+          "wasmBuffer": "AGFzbQEAAAABBwFgAn9/AX8DAgEABwcBA3J1bgAAChYBFAB/AAsiACEDIAEgAigAACIDIAIQAAs=",
+          "attestationToken": "ATT-072FAC08",
+          "memoryUsage": 0
+        },
+        {
+          "id": "7254e83d-eb0b-41f1-88dc-e9a93df4913d",
+          "name": "Helix-Proto-772",
+          "status": "Undifferentiated",
+          "lifecycle": "Undifferentiated",
+          "logs": [
+            "[CORTICAL-GATEWAY] Absolute Perimeter Check: PASSED.",
+            "[CORTICAL-GATEWAY] CAUTION: Anonymous module detected.",
+            "[SYSTEM] Pluripotent stem-cell pool 7254e83d-eb0b-41f1-88dc-e9a93df4913d provisioned in Ring 3.",
+            "[SYSTEM] Awaiting Neuro-Highway context for differentiation.",
+            "[SECURITY] Behavioral monitor initialized for instance scope.",
+            "[SYSTEM] WASM payload size: 0.05 KB detected."
+          ],
+          "deployedAt": "2026-05-22T22:22:02.177Z",
+          "wasmBuffer": "AGFzbQEAAAABBwFgAn9/AX8DAgEABwcBA3J1bgAAChYBFAB/AAsiACEDIAEgAigAACIDIAIQAAs=",
+          "attestationToken": "ATT-028BD615",
+          "memoryUsage": 0
+        },
+        {
+          "id": "3440beea-7ff9-4ed7-bb3c-79484445fdd1",
+          "name": "Helix-Proto-483",
+          "status": "Undifferentiated",
+          "lifecycle": "Undifferentiated",
+          "logs": [
+            "[CORTICAL-GATEWAY] Absolute Perimeter Check: PASSED.",
+            "[CORTICAL-GATEWAY] CAUTION: Anonymous module detected.",
+            "[SYSTEM] Pluripotent stem-cell pool 3440beea-7ff9-4ed7-bb3c-79484445fdd1 provisioned in Ring 3.",
+            "[SYSTEM] Awaiting Neuro-Highway context for differentiation.",
+            "[SECURITY] Behavioral monitor initialized for instance scope.",
+            "[SYSTEM] WASM payload size: 0.05 KB detected."
+          ],
+          "deployedAt": "2026-05-22T22:22:02.377Z",
+          "wasmBuffer": "AGFzbQEAAAABBwFgAn9/AX8DAgEABwcBA3J1bgAAChYBFAB/AAsiACEDIAEgAigAACIDIAIQAAs=",
+          "attestationToken": "ATT-54C18C9E",
+          "memoryUsage": 0
+        },
+        {
+          "id": "2076e228-3aa6-457b-bdba-091eb80a6ef1",
+          "name": "Helix-Proto-355",
+          "status": "Undifferentiated",
+          "lifecycle": "Undifferentiated",
+          "logs": [
+            "[CORTICAL-GATEWAY] Absolute Perimeter Check: PASSED.",
+            "[CORTICAL-GATEWAY] CAUTION: Anonymous module detected.",
+            "[SYSTEM] Pluripotent stem-cell pool 2076e228-3aa6-457b-bdba-091eb80a6ef1 provisioned in Ring 3.",
+            "[SYSTEM] Awaiting Neuro-Highway context for differentiation.",
+            "[SECURITY] Behavioral monitor initialized for instance scope.",
+            "[SYSTEM] WASM payload size: 0.05 KB detected."
+          ],
+          "deployedAt": "2026-05-22T22:22:02.522Z",
+          "wasmBuffer": "AGFzbQEAAAABBwFgAn9/AX8DAgEABwcBA3J1bgAAChYBFAB/AAsiACEDIAEgAigAACIDIAIQAAs=",
+          "attestationToken": "ATT-B88FD2C6",
+          "memoryUsage": 0
+        },
+        {
+          "id": "50cbce1d-43b3-442e-8751-0cb067581df7",
+          "name": "Helix-Proto-911",
+          "status": "Undifferentiated",
+          "lifecycle": "Undifferentiated",
+          "logs": [
+            "[CORTICAL-GATEWAY] Absolute Perimeter Check: PASSED.",
+            "[CORTICAL-GATEWAY] CAUTION: Anonymous module detected.",
+            "[SYSTEM] Pluripotent stem-cell pool 50cbce1d-43b3-442e-8751-0cb067581df7 provisioned in Ring 3.",
+            "[SYSTEM] Awaiting Neuro-Highway context for differentiation.",
+            "[SECURITY] Behavioral monitor initialized for instance scope.",
+            "[SYSTEM] WASM payload size: 0.05 KB detected."
+          ],
+          "deployedAt": "2026-05-22T22:22:03.149Z",
+          "wasmBuffer": "AGFzbQEAAAABBwFgAn9/AX8DAgEABwcBA3J1bgAAChYBFAB/AAsiACEDIAEgAigAACIDIAIQAAs=",
+          "attestationToken": "ATT-3B6491B8",
+          "memoryUsage": 0
+        },
+        {
+          "id": "900af660-f927-44f8-85f6-db41ce922069",
+          "name": "Helix-Proto-676",
+          "status": "Undifferentiated",
+          "lifecycle": "Undifferentiated",
+          "logs": [
+            "[CORTICAL-GATEWAY] Absolute Perimeter Check: PASSED.",
+            "[CORTICAL-GATEWAY] CAUTION: Anonymous module detected.",
+            "[SYSTEM] Pluripotent stem-cell pool 900af660-f927-44f8-85f6-db41ce922069 provisioned in Ring 3.",
+            "[SYSTEM] Awaiting Neuro-Highway context for differentiation.",
+            "[SECURITY] Behavioral monitor initialized for instance scope.",
+            "[SYSTEM] WASM payload size: 0.05 KB detected."
+          ],
+          "deployedAt": "2026-05-22T22:22:03.586Z",
+          "wasmBuffer": "AGFzbQEAAAABBwFgAn9/AX8DAgEABwcBA3J1bgAAChYBFAB/AAsiACEDIAEgAigAACIDIAIQAAs=",
+          "attestationToken": "ATT-1502C9D3",
+          "memoryUsage": 0
+        },
+        {
+          "id": "z66ljshtz",
+          "name": "Architect: Alpha",
+          "status": "Specializing",
+          "logs": [
+            "Swarm agent initialized: Architect"
+          ],
+          "deployedAt": "2026-05-22T22:32:25.450Z",
+          "lifecycle": "Specialized"
+        },
+        {
+          "id": "uonl9ifgb",
+          "name": "Optimizer: Sigma",
+          "status": "Specializing",
+          "logs": [
+            "Swarm agent initialized: Optimizer"
+          ],
+          "deployedAt": "2026-05-22T22:32:25.450Z",
+          "lifecycle": "Specialized"
+        },
+        {
+          "id": "a6pp9gj0f",
+          "name": "Auditor: Omega",
+          "status": "Specializing",
+          "logs": [
+            "Swarm agent initialized: Auditor"
+          ],
+          "deployedAt": "2026-05-22T22:32:25.450Z",
+          "lifecycle": "Specialized"
+        },
+        {
+          "id": "75f60c6a-e653-4f07-b89b-4ab29ce570ce",
+          "name": "D:\\aegis-pandora",
+          "status": "Undifferentiated",
+          "lifecycle": "Undifferentiated",
+          "logs": [
+            "[CORTICAL-GATEWAY] Absolute Perimeter Check: PASSED.",
+            "[CORTICAL-GATEWAY] CAUTION: Anonymous module detected.",
+            "[SYSTEM] Pluripotent stem-cell pool 75f60c6a-e653-4f07-b89b-4ab29ce570ce provisioned in Ring 3.",
+            "[SYSTEM] Awaiting Neuro-Highway context for differentiation.",
+            "[SECURITY] Behavioral monitor initialized for instance scope.",
+            "[SYSTEM] WASM payload size: 0.05 KB detected."
+          ],
+          "deployedAt": "2026-05-22T22:45:30.497Z",
+          "wasmBuffer": "AGFzbQEAAAABBwFgAn9/AX8DAgEABwcBA3J1bgAAChYBFAB/AAsiACEDIAEgAigAACIDIAIQAAs=",
+          "attestationToken": "ATT-AA96DE86",
+          "memoryUsage": 0
+        },
+        {
+          "id": "6de5f1cd-f9e3-4f7b-a14a-a5a35adf383e",
+          "name": "D:\\aegis-pandora",
+          "status": "Undifferentiated",
+          "lifecycle": "Undifferentiated",
+          "logs": [
+            "[CORTICAL-GATEWAY] Absolute Perimeter Check: PASSED.",
+            "[CORTICAL-GATEWAY] CAUTION: Anonymous module detected.",
+            "[SYSTEM] Pluripotent stem-cell pool 6de5f1cd-f9e3-4f7b-a14a-a5a35adf383e provisioned in Ring 3.",
+            "[SYSTEM] Awaiting Neuro-Highway context for differentiation.",
+            "[SECURITY] Behavioral monitor initialized for instance scope.",
+            "[SYSTEM] WASM payload size: 0.05 KB detected."
+          ],
+          "deployedAt": "2026-05-22T22:45:39.915Z",
+          "wasmBuffer": "AGFzbQEAAAABBwFgAn9/AX8DAgEABwcBA3J1bgAAChYBFAB/AAsiACEDIAEgAigAACIDIAIQAAs=",
+          "attestationToken": "ATT-F40C6047",
+          "memoryUsage": 0
+        },
+        {
+          "id": "b8435a45-2ad4-4acc-a1ce-41983f818012",
+          "name": "D:\\aegis-pandora",
+          "status": "Undifferentiated",
+          "lifecycle": "Undifferentiated",
+          "logs": [
+            "[CORTICAL-GATEWAY] Absolute Perimeter Check: PASSED.",
+            "[CORTICAL-GATEWAY] CAUTION: Anonymous module detected.",
+            "[SYSTEM] Pluripotent stem-cell pool b8435a45-2ad4-4acc-a1ce-41983f818012 provisioned in Ring 3.",
+            "[SYSTEM] Awaiting Neuro-Highway context for differentiation.",
+            "[SECURITY] Behavioral monitor initialized for instance scope.",
+            "[SYSTEM] WASM payload size: 0.05 KB detected."
+          ],
+          "deployedAt": "2026-05-22T22:46:33.843Z",
+          "wasmBuffer": "AGFzbQEAAAABBwFgAn9/AX8DAgEABwcBA3J1bgAAChYBFAB/AAsiACEDIAEgAigAACIDIAIQAAs=",
+          "attestationToken": "ATT-938873D2",
+          "memoryUsage": 0
+        },
+        {
+          "id": "578ff4c0-6648-4868-ae01-bbb58053e293",
+          "name": "D:\\aegis-pandora",
+          "status": "Undifferentiated",
+          "lifecycle": "Undifferentiated",
+          "logs": [
+            "[CORTICAL-GATEWAY] Absolute Perimeter Check: PASSED.",
+            "[CORTICAL-GATEWAY] CAUTION: Anonymous module detected.",
+            "[SYSTEM] Pluripotent stem-cell pool 578ff4c0-6648-4868-ae01-bbb58053e293 provisioned in Ring 3.",
+            "[SYSTEM] Awaiting Neuro-Highway context for differentiation.",
+            "[SECURITY] Behavioral monitor initialized for instance scope.",
+            "[SYSTEM] WASM payload size: 0.05 KB detected."
+          ],
+          "deployedAt": "2026-05-22T22:46:47.179Z",
+          "wasmBuffer": "AGFzbQEAAAABBwFgAn9/AX8DAgEABwcBA3J1bgAAChYBFAB/AAsiACEDIAEgAigAACIDIAIQAAs=",
+          "attestationToken": "ATT-77C17FE9",
+          "memoryUsage": 0
+        },
+        {
+          "id": "dfc59812-0f22-436b-b8b3-50dbf71d4f29",
+          "name": "D:\\aegis-pandora",
+          "status": "Undifferentiated",
+          "lifecycle": "Undifferentiated",
+          "logs": [
+            "[CORTICAL-GATEWAY] Absolute Perimeter Check: PASSED.",
+            "[CORTICAL-GATEWAY] CAUTION: Anonymous module detected.",
+            "[SYSTEM] Pluripotent stem-cell pool dfc59812-0f22-436b-b8b3-50dbf71d4f29 provisioned in Ring 3.",
+            "[SYSTEM] Awaiting Neuro-Highway context for differentiation.",
+            "[SECURITY] Behavioral monitor initialized for instance scope.",
+            "[SYSTEM] WASM payload size: 0.05 KB detected."
+          ],
+          "deployedAt": "2026-05-22T22:48:07.873Z",
+          "wasmBuffer": "AGFzbQEAAAABBwFgAn9/AX8DAgEABwcBA3J1bgAAChYBFAB/AAsiACEDIAEgAigAACIDIAIQAAs=",
+          "attestationToken": "ATT-43609AFB",
+          "memoryUsage": 0
+        },
+        {
+          "id": "7143dae5-d97b-4263-850d-86706e930e41",
+          "name": "D:\\aegis-pandora",
+          "status": "Undifferentiated",
+          "lifecycle": "Undifferentiated",
+          "logs": [
+            "[CORTICAL-GATEWAY] Absolute Perimeter Check: PASSED.",
+            "[CORTICAL-GATEWAY] CAUTION: Anonymous module detected.",
+            "[SYSTEM] Pluripotent stem-cell pool 7143dae5-d97b-4263-850d-86706e930e41 provisioned in Ring 3.",
+            "[SYSTEM] Awaiting Neuro-Highway context for differentiation.",
+            "[SECURITY] Behavioral monitor initialized for instance scope.",
+            "[SYSTEM] WASM payload size: 0.05 KB detected."
+          ],
+          "deployedAt": "2026-05-22T22:48:59.251Z",
+          "wasmBuffer": "AGFzbQEAAAABBwFgAn9/AX8DAgEABwcBA3J1bgAAChYBFAB/AAsiACEDIAEgAigAACIDIAIQAAs=",
+          "attestationToken": "ATT-02AEE1B8",
+          "memoryUsage": 0
+        },
+        {
+          "id": "d73a6e6b-b7be-4a6f-a8d4-872be492c098",
+          "name": "Helix-Proto-939",
+          "status": "Undifferentiated",
+          "lifecycle": "Undifferentiated",
+          "logs": [
+            "[CORTICAL-GATEWAY] Absolute Perimeter Check: PASSED.",
+            "[CORTICAL-GATEWAY] CAUTION: Anonymous module detected.",
+            "[SYSTEM] Pluripotent stem-cell pool d73a6e6b-b7be-4a6f-a8d4-872be492c098 provisioned in Ring 3.",
+            "[SYSTEM] Awaiting Neuro-Highway context for differentiation.",
+            "[SECURITY] Behavioral monitor initialized for instance scope.",
+            "[SYSTEM] WASM payload size: 0.05 KB detected."
+          ],
+          "deployedAt": "2026-05-22T22:51:34.741Z",
+          "wasmBuffer": "AGFzbQEAAAABBwFgAn9/AX8DAgEABwcBA3J1bgAAChYBFAB/AAsiACEDIAEgAigAACIDIAIQAAs=",
+          "attestationToken": "ATT-95059983",
+          "memoryUsage": 0
+        },
+        {
+          "id": "d2d6f28b-1454-4e60-90a6-628067ad1490",
+          "name": "D:\\aegis-pandora",
+          "status": "Undifferentiated",
+          "lifecycle": "Undifferentiated",
+          "logs": [
+            "[CORTICAL-GATEWAY] Absolute Perimeter Check: PASSED.",
+            "[CORTICAL-GATEWAY] CAUTION: Anonymous module detected.",
+            "[SYSTEM] Pluripotent stem-cell pool d2d6f28b-1454-4e60-90a6-628067ad1490 provisioned in Ring 3.",
+            "[SYSTEM] Awaiting Neuro-Highway context for differentiation.",
+            "[SECURITY] Behavioral monitor initialized for instance scope.",
+            "[SYSTEM] WASM payload size: 0.05 KB detected."
+          ],
+          "deployedAt": "2026-05-22T23:59:46.477Z",
+          "wasmBuffer": "AGFzbQEAAAABBwFgAn9/AX8DAgEABwcBA3J1bgAAChYBFAB/AAsiACEDIAEgAigAACIDIAIQAAs=",
+          "attestationToken": "ATT-8777E5F0",
+          "memoryUsage": 0
+        },
+        {
+          "id": "c39eeb10-4be3-4d04-bd28-89c454cc2556",
+          "name": "D:\\aegis-pandora",
+          "status": "Undifferentiated",
+          "lifecycle": "Undifferentiated",
+          "logs": [
+            "[CORTICAL-GATEWAY] Absolute Perimeter Check: PASSED.",
+            "[CORTICAL-GATEWAY] CAUTION: Anonymous module detected.",
+            "[SYSTEM] Pluripotent stem-cell pool c39eeb10-4be3-4d04-bd28-89c454cc2556 provisioned in Ring 3.",
+            "[SYSTEM] Awaiting Neuro-Highway context for differentiation.",
+            "[SECURITY] Behavioral monitor initialized for instance scope.",
+            "[SYSTEM] WASM payload size: 0.05 KB detected."
+          ],
+          "deployedAt": "2026-05-22T23:59:56.236Z",
+          "wasmBuffer": "AGFzbQEAAAABBwFgAn9/AX8DAgEABwcBA3J1bgAAChYBFAB/AAsiACEDIAEgAigAACIDIAIQAAs=",
+          "attestationToken": "ATT-10EC3827",
+          "memoryUsage": 0
+        },
+        {
+          "id": "ba707afd-1674-40dc-a277-26ea0f910cea",
+          "name": "D:\\aegis-pandora",
+          "status": "Undifferentiated",
+          "lifecycle": "Undifferentiated",
+          "logs": [
+            "[CORTICAL-GATEWAY] Absolute Perimeter Check: PASSED.",
+            "[CORTICAL-GATEWAY] CAUTION: Anonymous module detected.",
+            "[SYSTEM] Pluripotent stem-cell pool ba707afd-1674-40dc-a277-26ea0f910cea provisioned in Ring 3.",
+            "[SYSTEM] Awaiting Neuro-Highway context for differentiation.",
+            "[SECURITY] Behavioral monitor initialized for instance scope.",
+            "[SYSTEM] WASM payload size: 0.05 KB detected."
+          ],
+          "deployedAt": "2026-05-23T00:00:04.361Z",
+          "wasmBuffer": "AGFzbQEAAAABBwFgAn9/AX8DAgEABwcBA3J1bgAAChYBFAB/AAsiACEDIAEgAigAACIDIAIQAAs=",
+          "attestationToken": "ATT-D61EB7A3",
+          "memoryUsage": 0
+        },
+        {
+          "id": "aa873f63-0b07-480c-9908-4890680d9d2d",
+          "name": "D:\\aegis-pandora",
+          "status": "Undifferentiated",
+          "lifecycle": "Undifferentiated",
+          "logs": [
+            "[CORTICAL-GATEWAY] Absolute Perimeter Check: PASSED.",
+            "[CORTICAL-GATEWAY] CAUTION: Anonymous module detected.",
+            "[SYSTEM] Pluripotent stem-cell pool aa873f63-0b07-480c-9908-4890680d9d2d provisioned in Ring 3.",
+            "[SYSTEM] Awaiting Neuro-Highway context for differentiation.",
+            "[SECURITY] Behavioral monitor initialized for instance scope.",
+            "[SYSTEM] WASM payload size: 0.05 KB detected."
+          ],
+          "deployedAt": "2026-05-23T00:00:09.216Z",
+          "wasmBuffer": "AGFzbQEAAAABBwFgAn9/AX8DAgEABwcBA3J1bgAAChYBFAB/AAsiACEDIAEgAigAACIDIAIQAAs=",
+          "attestationToken": "ATT-15195166",
+          "memoryUsage": 0
+        },
+        {
+          "id": "f8e5ccb3-2381-449e-9142-673b620f0c53",
+          "name": "My-Helix-Project",
+          "status": "Undifferentiated",
+          "lifecycle": "Undifferentiated",
+          "logs": [
+            "[CORTICAL-GATEWAY] Absolute Perimeter Check: PASSED.",
+            "[CORTICAL-GATEWAY] CAUTION: Anonymous module detected.",
+            "[SYSTEM] Pluripotent stem-cell pool f8e5ccb3-2381-449e-9142-673b620f0c53 provisioned in Ring 3.",
+            "[SYSTEM] Awaiting Neuro-Highway context for differentiation.",
+            "[SECURITY] Behavioral monitor initialized for instance scope.",
+            "[SYSTEM] WASM payload size: 0.05 KB detected."
+          ],
+          "deployedAt": "2026-05-23T00:02:06.120Z",
+          "wasmBuffer": "AGFzbQEAAAABBwFgAn9/AX8DAgEABwcBA3J1bgAAChYBFAB/AAsiACEDIAEgAigAACIDIAIQAAs=",
+          "attestationToken": "ATT-9EADB1ED",
+          "memoryUsage": 0
+        },
+        {
+          "id": "f445ef6e-6504-4172-878b-4e502d8a3ab5",
+          "name": "Helix-Proto-268",
+          "status": "Undifferentiated",
+          "lifecycle": "Undifferentiated",
+          "logs": [
+            "[CORTICAL-GATEWAY] Absolute Perimeter Check: PASSED.",
+            "[CORTICAL-GATEWAY] CAUTION: Anonymous module detected.",
+            "[SYSTEM] Pluripotent stem-cell pool f445ef6e-6504-4172-878b-4e502d8a3ab5 provisioned in Ring 3.",
+            "[SYSTEM] Awaiting Neuro-Highway context for differentiation.",
+            "[SECURITY] Behavioral monitor initialized for instance scope.",
+            "[SYSTEM] WASM payload size: 0.05 KB detected."
+          ],
+          "deployedAt": "2026-05-23T00:03:46.826Z",
+          "wasmBuffer": "AGFzbQEAAAABBwFgAn9/AX8DAgEABwcBA3J1bgAAChYBFAB/AAsiACEDIAEgAigAACIDIAIQAAs=",
+          "attestationToken": "ATT-975FE49F",
+          "memoryUsage": 0
+        },
+        {
+          "id": "37b102de-e9bc-45e9-8781-b1a062b4e764",
+          "name": "Helix-Proto-45",
+          "status": "Undifferentiated",
+          "lifecycle": "Undifferentiated",
+          "logs": [
+            "[CORTICAL-GATEWAY] Absolute Perimeter Check: PASSED.",
+            "[CORTICAL-GATEWAY] CAUTION: Anonymous module detected.",
+            "[SYSTEM] Pluripotent stem-cell pool 37b102de-e9bc-45e9-8781-b1a062b4e764 provisioned in Ring 3.",
+            "[SYSTEM] Awaiting Neuro-Highway context for differentiation.",
+            "[SECURITY] Behavioral monitor initialized for instance scope.",
+            "[SYSTEM] WASM payload size: 0.05 KB detected."
+          ],
+          "deployedAt": "2026-05-23T00:04:37.072Z",
+          "wasmBuffer": "AGFzbQEAAAABBwFgAn9/AX8DAgEABwcBA3J1bgAAChYBFAB/AAsiACEDIAEgAigAACIDIAIQAAs=",
+          "attestationToken": "ATT-212A6A66",
+          "memoryUsage": 0
+        },
+        {
+          "id": "be23b868-7a18-4b46-8f31-89e1d89e43a3",
+          "name": "D:\\aegis-pandora",
+          "status": "Undifferentiated",
+          "lifecycle": "Undifferentiated",
+          "logs": [
+            "[CORTICAL-GATEWAY] Absolute Perimeter Check: PASSED.",
+            "[CORTICAL-GATEWAY] CAUTION: Anonymous module detected.",
+            "[SYSTEM] Pluripotent stem-cell pool be23b868-7a18-4b46-8f31-89e1d89e43a3 provisioned in Ring 3.",
+            "[SYSTEM] Awaiting Neuro-Highway context for differentiation.",
+            "[SECURITY] Behavioral monitor initialized for instance scope.",
+            "[SYSTEM] WASM payload size: 0.05 KB detected."
+          ],
+          "deployedAt": "2026-05-23T00:04:52.506Z",
+          "wasmBuffer": "AGFzbQEAAAABBwFgAn9/AX8DAgEABwcBA3J1bgAAChYBFAB/AAsiACEDIAEgAigAACIDIAIQAAs=",
+          "attestationToken": "ATT-B97EB2FB",
+          "memoryUsage": 0
+        },
+        {
+          "id": "d67f0ee7-f017-45ae-8908-db1f0eb5ea1c",
+          "name": "Helix-Proto-758",
+          "status": "Undifferentiated",
+          "lifecycle": "Undifferentiated",
+          "logs": [
+            "[CORTICAL-GATEWAY] Absolute Perimeter Check: PASSED.",
+            "[CORTICAL-GATEWAY] CAUTION: Anonymous module detected.",
+            "[SYSTEM] Pluripotent stem-cell pool d67f0ee7-f017-45ae-8908-db1f0eb5ea1c provisioned in Ring 3.",
+            "[SYSTEM] Awaiting Neuro-Highway context for differentiation.",
+            "[SECURITY] Behavioral monitor initialized for instance scope.",
+            "[SYSTEM] WASM payload size: 0.05 KB detected."
+          ],
+          "deployedAt": "2026-05-23T00:05:18.428Z",
+          "wasmBuffer": "AGFzbQEAAAABBwFgAn9/AX8DAgEABwcBA3J1bgAAChYBFAB/AAsiACEDIAEgAigAACIDIAIQAAs=",
+          "attestationToken": "ATT-A90348C1",
+          "memoryUsage": 0
+        },
+        {
+          "id": "s7elhqt28",
+          "name": "Architect: Alpha",
+          "status": "Specializing",
+          "logs": [
+            "Swarm agent initialized: Architect"
+          ],
+          "deployedAt": "2026-05-23T00:10:54.299Z",
+          "lifecycle": "Specialized"
+        },
+        {
+          "id": "35nlqdyqn",
+          "name": "Optimizer: Sigma",
+          "status": "Specializing",
+          "logs": [
+            "Swarm agent initialized: Optimizer"
+          ],
+          "deployedAt": "2026-05-23T00:10:54.299Z",
+          "lifecycle": "Specialized"
+        },
+        {
+          "id": "expoqd7gs",
+          "name": "Auditor: Omega",
+          "status": "Specializing",
+          "logs": [
+            "Swarm agent initialized: Auditor"
+          ],
+          "deployedAt": "2026-05-23T00:10:54.299Z",
+          "lifecycle": "Specialized"
+        },
+        {
+          "id": "e902f5ce-7bf7-40c2-a7e9-75d9f75ba80d",
+          "name": "Helix-Proto-792",
+          "status": "Undifferentiated",
+          "lifecycle": "Undifferentiated",
+          "logs": [
+            "[CORTICAL-GATEWAY] Absolute Perimeter Check: PASSED.",
+            "[CORTICAL-GATEWAY] CAUTION: Anonymous module detected.",
+            "[SYSTEM] Pluripotent stem-cell pool e902f5ce-7bf7-40c2-a7e9-75d9f75ba80d provisioned in Ring 3.",
+            "[SYSTEM] Awaiting Neuro-Highway context for differentiation.",
+            "[SECURITY] Behavioral monitor initialized for instance scope.",
+            "[SYSTEM] WASM payload size: 0.05 KB detected."
+          ],
+          "deployedAt": "2026-05-23T00:13:28.205Z",
+          "wasmBuffer": "AGFzbQEAAAABBwFgAn9/AX8DAgEABwcBA3J1bgAAChYBFAB/AAsiACEDIAEgAigAACIDIAIQAAs=",
+          "attestationToken": "ATT-96F40E46",
+          "memoryUsage": 0
+        },
+        {
+          "id": "70ff4a16-d57d-43f7-8cd9-265c3a03e23f",
+          "name": "Llama-3-FineTune",
+          "status": "Undifferentiated",
+          "lifecycle": "Undifferentiated",
+          "logs": [
+            "[CORTICAL-GATEWAY] Absolute Perimeter Check: PASSED.",
+            "[CORTICAL-GATEWAY] CAUTION: Anonymous module detected.",
+            "[SYSTEM] Pluripotent stem-cell pool 70ff4a16-d57d-43f7-8cd9-265c3a03e23f provisioned in Ring 3.",
+            "[SYSTEM] Awaiting Neuro-Highway context for differentiation.",
+            "[SECURITY] Behavioral monitor initialized for instance scope.",
+            "[SYSTEM] WASM payload size: 0.05 KB detected."
+          ],
+          "deployedAt": "2026-05-23T00:20:25.195Z",
+          "wasmBuffer": "AGFzbQEAAAABBwFgAn9/AX8DAgEABwcBA3J1bgAAChYBFAB/AAsiACEDIAEgAigAACIDIAIQAAs=",
+          "attestationToken": "ATT-50ADF21E",
+          "memoryUsage": 0
+        },
+        {
+          "id": "c2957393-b111-4b6f-9862-f9ccc6e10448",
+          "name": "Llama-3-FineTune",
+          "status": "Undifferentiated",
+          "lifecycle": "Undifferentiated",
+          "logs": [
+            "[CORTICAL-GATEWAY] Absolute Perimeter Check: PASSED.",
+            "[CORTICAL-GATEWAY] CAUTION: Anonymous module detected.",
+            "[SYSTEM] Pluripotent stem-cell pool c2957393-b111-4b6f-9862-f9ccc6e10448 provisioned in Ring 3.",
+            "[SYSTEM] Awaiting Neuro-Highway context for differentiation.",
+            "[SECURITY] Behavioral monitor initialized for instance scope.",
+            "[SYSTEM] WASM payload size: 0.05 KB detected."
+          ],
+          "deployedAt": "2026-05-23T00:20:33.028Z",
+          "wasmBuffer": "AGFzbQEAAAABBwFgAn9/AX8DAgEABwcBA3J1bgAAChYBFAB/AAsiACEDIAEgAigAACIDIAIQAAs=",
+          "attestationToken": "ATT-C1A8623A",
+          "memoryUsage": 0
+        },
+        {
+          "id": "8cfda1e0-620d-4c55-9881-6677f0d5f96d",
+          "name": "Llama-3-FineTune",
+          "status": "Undifferentiated",
+          "lifecycle": "Undifferentiated",
+          "logs": [
+            "[CORTICAL-GATEWAY] Absolute Perimeter Check: PASSED.",
+            "[CORTICAL-GATEWAY] CAUTION: Anonymous module detected.",
+            "[SYSTEM] Pluripotent stem-cell pool 8cfda1e0-620d-4c55-9881-6677f0d5f96d provisioned in Ring 3.",
+            "[SYSTEM] Awaiting Neuro-Highway context for differentiation.",
+            "[SECURITY] Behavioral monitor initialized for instance scope.",
+            "[SYSTEM] WASM payload size: 0.05 KB detected."
+          ],
+          "deployedAt": "2026-05-23T00:32:02.671Z",
+          "wasmBuffer": "AGFzbQEAAAABBwFgAn9/AX8DAgEABwcBA3J1bgAAChYBFAB/AAsiACEDIAEgAigAACIDIAIQAAs=",
+          "attestationToken": "ATT-AF330AD0",
+          "memoryUsage": 0
+        },
+        {
+          "id": "721e345c-c7e6-4615-962c-222fa9aa2336",
+          "name": "Helix-Proto-610",
+          "status": "Undifferentiated",
+          "lifecycle": "Undifferentiated",
+          "logs": [
+            "[CORTICAL-GATEWAY] Absolute Perimeter Check: PASSED.",
+            "[CORTICAL-GATEWAY] CAUTION: Anonymous module detected.",
+            "[SYSTEM] Pluripotent stem-cell pool 721e345c-c7e6-4615-962c-222fa9aa2336 provisioned in Ring 3.",
+            "[SYSTEM] Awaiting Neuro-Highway context for differentiation.",
+            "[SECURITY] Behavioral monitor initialized for instance scope.",
+            "[SYSTEM] WASM payload size: 0.05 KB detected."
+          ],
+          "deployedAt": "2026-05-23T00:37:10.026Z",
+          "wasmBuffer": "AGFzbQEAAAABBwFgAn9/AX8DAgEABwcBA3J1bgAAChYBFAB/AAsiACEDIAEgAigAACIDIAIQAAs=",
+          "attestationToken": "ATT-55B38D58",
+          "memoryUsage": 0
+        },
+        {
+          "id": "516ae184-0035-40f3-b8f0-3520844a2d9c",
+          "name": "Mini-AGI Explorer",
+          "status": "Undifferentiated",
+          "lifecycle": "Undifferentiated",
+          "logs": [
+            "[CORTICAL-GATEWAY] Absolute Perimeter Check: PASSED.",
+            "[CORTICAL-GATEWAY] CAUTION: Anonymous module detected.",
+            "[SYSTEM] Pluripotent stem-cell pool 516ae184-0035-40f3-b8f0-3520844a2d9c provisioned in Ring 3.",
+            "[SYSTEM] Awaiting Neuro-Highway context for differentiation.",
+            "[SECURITY] Behavioral monitor initialized for instance scope.",
+            "[SYSTEM] WASM payload size: 0.05 KB detected."
+          ],
+          "deployedAt": "2026-05-23T00:41:44.252Z",
+          "wasmBuffer": "AGFzbQEAAAABBwFgAn9/AX8DAgEABwcBA3J1bgAAChYBFAB/AAsiACEDIAEgAigAACIDIAIQAAs=",
+          "attestationToken": "ATT-C2585CDA",
+          "memoryUsage": 0
+        },
+        {
+          "id": "67bce7e6-7f7a-4d4d-9bc8-5ae218d8e6a6",
+          "name": "Mini-AGI Explorer",
+          "status": "Undifferentiated",
+          "lifecycle": "Undifferentiated",
+          "logs": [
+            "[CORTICAL-GATEWAY] Absolute Perimeter Check: PASSED.",
+            "[CORTICAL-GATEWAY] CAUTION: Anonymous module detected.",
+            "[SYSTEM] Pluripotent stem-cell pool 67bce7e6-7f7a-4d4d-9bc8-5ae218d8e6a6 provisioned in Ring 3.",
+            "[SYSTEM] Awaiting Neuro-Highway context for differentiation.",
+            "[SECURITY] Behavioral monitor initialized for instance scope.",
+            "[SYSTEM] WASM payload size: 0.05 KB detected."
+          ],
+          "deployedAt": "2026-05-23T00:41:54.563Z",
+          "wasmBuffer": "AGFzbQEAAAABBwFgAn9/AX8DAgEABwcBA3J1bgAAChYBFAB/AAsiACEDIAEgAigAACIDIAIQAAs=",
+          "attestationToken": "ATT-891AE13A",
+          "memoryUsage": 0
+        },
+        {
+          "id": "c226dfca-f771-400c-81d5-9404363bed1b",
+          "name": "Llama-3-FineTune",
+          "status": "Undifferentiated",
+          "lifecycle": "Undifferentiated",
+          "logs": [
+            "[CORTICAL-GATEWAY] Absolute Perimeter Check: PASSED.",
+            "[CORTICAL-GATEWAY] CAUTION: Anonymous module detected.",
+            "[SYSTEM] Pluripotent stem-cell pool c226dfca-f771-400c-81d5-9404363bed1b provisioned in Ring 3.",
+            "[SYSTEM] Awaiting Neuro-Highway context for differentiation.",
+            "[SECURITY] Behavioral monitor initialized for instance scope.",
+            "[SYSTEM] WASM payload size: 0.05 KB detected."
+          ],
+          "deployedAt": "2026-05-23T00:45:58.573Z",
+          "wasmBuffer": "AGFzbQEAAAABBwFgAn9/AX8DAgEABwcBA3J1bgAAChYBFAB/AAsiACEDIAEgAigAACIDIAIQAAs=",
+          "attestationToken": "ATT-7B55E77B",
+          "memoryUsage": 0
+        },
+        {
+          "id": "4lhzbgk16",
+          "name": "Architect: Alpha",
+          "status": "Specializing",
+          "logs": [
+            "Swarm agent initialized: Architect"
+          ],
+          "deployedAt": "2026-05-23T02:40:03.004Z",
+          "lifecycle": "Specialized"
+        },
+        {
+          "id": "spo8oq36l",
+          "name": "Optimizer: Sigma",
+          "status": "Specializing",
+          "logs": [
+            "Swarm agent initialized: Optimizer"
+          ],
+          "deployedAt": "2026-05-23T02:40:03.004Z",
+          "lifecycle": "Specialized"
+        },
+        {
+          "id": "k4f8l5utx",
+          "name": "Auditor: Omega",
+          "status": "Specializing",
+          "logs": [
+            "Swarm agent initialized: Auditor"
+          ],
+          "deployedAt": "2026-05-23T02:40:03.004Z",
+          "lifecycle": "Specialized"
+        },
+        {
+          "id": "f73d28c5-91d6-47e3-9d35-804c63b5c702",
+          "name": "Helix-Proto-370",
+          "status": "Undifferentiated",
+          "lifecycle": "Undifferentiated",
+          "logs": [
+            "[CORTICAL-GATEWAY] Absolute Perimeter Check: PASSED.",
+            "[CORTICAL-GATEWAY] CAUTION: Anonymous module detected.",
+            "[SYSTEM] Pluripotent stem-cell pool f73d28c5-91d6-47e3-9d35-804c63b5c702 provisioned in Ring 3.",
+            "[SYSTEM] Awaiting Neuro-Highway context for differentiation.",
+            "[SECURITY] Behavioral monitor initialized for instance scope.",
+            "[SYSTEM] WASM payload size: 0.05 KB detected."
+          ],
+          "deployedAt": "2026-05-23T02:40:22.915Z",
+          "wasmBuffer": "AGFzbQEAAAABBwFgAn9/AX8DAgEABwcBA3J1bgAAChYBFAB/AAsiACEDIAEgAigAACIDIAIQAAs=",
+          "attestationToken": "ATT-F5BD814E",
+          "memoryUsage": 0
+        },
+        {
+          "id": "af183ed8-9815-4491-b6cb-437c20b09fdb",
+          "name": "Helix-Proto-259",
+          "status": "Undifferentiated",
+          "lifecycle": "Undifferentiated",
+          "logs": [
+            "[CORTICAL-GATEWAY] Absolute Perimeter Check: PASSED.",
+            "[CORTICAL-GATEWAY] CAUTION: Anonymous module detected.",
+            "[SYSTEM] Pluripotent stem-cell pool af183ed8-9815-4491-b6cb-437c20b09fdb provisioned in Ring 3.",
+            "[SYSTEM] Awaiting Neuro-Highway context for differentiation.",
+            "[SECURITY] Behavioral monitor initialized for instance scope.",
+            "[SYSTEM] WASM payload size: 0.05 KB detected."
+          ],
+          "deployedAt": "2026-05-23T02:48:11.252Z",
+          "wasmBuffer": "AGFzbQEAAAABBwFgAn9/AX8DAgEABwcBA3J1bgAAChYBFAB/AAsiACEDIAEgAigAACIDIAIQAAs=",
+          "attestationToken": "ATT-6AF7649B",
+          "memoryUsage": 0
+        },
+        {
+          "id": "dee140ee-8abc-4918-9935-20eec425f8ff",
+          "name": "Helix-Proto-862",
+          "status": "Undifferentiated",
+          "lifecycle": "Undifferentiated",
+          "logs": [
+            "[CORTICAL-GATEWAY] Absolute Perimeter Check: PASSED.",
+            "[CORTICAL-GATEWAY] CAUTION: Anonymous module detected.",
+            "[SYSTEM] Pluripotent stem-cell pool dee140ee-8abc-4918-9935-20eec425f8ff provisioned in Ring 3.",
+            "[SYSTEM] Awaiting Neuro-Highway context for differentiation.",
+            "[SECURITY] Behavioral monitor initialized for instance scope.",
+            "[SYSTEM] WASM payload size: 0.05 KB detected."
+          ],
+          "deployedAt": "2026-05-23T02:48:12.702Z",
+          "wasmBuffer": "AGFzbQEAAAABBwFgAn9/AX8DAgEABwcBA3J1bgAAChYBFAB/AAsiACEDIAEgAigAACIDIAIQAAs=",
+          "attestationToken": "ATT-A0EB4815",
+          "memoryUsage": 0
+        },
+        {
+          "id": "4f3b109f-64d6-4af6-bff7-5a48199ade9e",
+          "name": "D:\\3D_Object\\lucy_code_builder",
+          "status": "Undifferentiated",
+          "lifecycle": "Undifferentiated",
+          "logs": [
+            "[CORTICAL-GATEWAY] Absolute Perimeter Check: PASSED.",
+            "[CORTICAL-GATEWAY] CAUTION: Anonymous module detected.",
+            "[SYSTEM] Pluripotent stem-cell pool 4f3b109f-64d6-4af6-bff7-5a48199ade9e provisioned in Ring 3.",
+            "[SYSTEM] Awaiting Neuro-Highway context for differentiation.",
+            "[SECURITY] Behavioral monitor initialized for instance scope.",
+            "[SYSTEM] WASM payload size: 0.05 KB detected."
+          ],
+          "deployedAt": "2026-05-23T02:50:50.737Z",
+          "wasmBuffer": "AGFzbQEAAAABBwFgAn9/AX8DAgEABwcBA3J1bgAAChYBFAB/AAsiACEDIAEgAigAACIDIAIQAAs=",
+          "attestationToken": "ATT-35D9B49F",
+          "memoryUsage": 0
+        },
+        {
+          "id": "btqe7i581",
+          "name": "Architect: Alpha",
+          "status": "Specializing",
+          "logs": [
+            "Swarm agent initialized: Architect"
+          ],
+          "deployedAt": "2026-05-23T02:51:47.346Z",
+          "lifecycle": "Specialized"
+        },
+        {
+          "id": "wq549gexu",
+          "name": "Optimizer: Sigma",
+          "status": "Specializing",
+          "logs": [
+            "Swarm agent initialized: Optimizer"
+          ],
+          "deployedAt": "2026-05-23T02:51:47.346Z",
+          "lifecycle": "Specialized"
+        },
+        {
+          "id": "fv81xm0os",
+          "name": "Auditor: Omega",
+          "status": "Specializing",
+          "logs": [
+            "Swarm agent initialized: Auditor"
+          ],
+          "deployedAt": "2026-05-23T02:51:47.346Z",
+          "lifecycle": "Specialized"
+        },
+        {
+          "id": "e71f4ada-b57c-47ab-a6f7-d1669d26c409",
+          "name": "Helix-Proto-68",
+          "status": "Undifferentiated",
+          "lifecycle": "Undifferentiated",
+          "logs": [
+            "[CORTICAL-GATEWAY] Absolute Perimeter Check: PASSED.",
+            "[CORTICAL-GATEWAY] CAUTION: Anonymous module detected.",
+            "[SYSTEM] Pluripotent stem-cell pool e71f4ada-b57c-47ab-a6f7-d1669d26c409 provisioned in Ring 3.",
+            "[SYSTEM] Awaiting Neuro-Highway context for differentiation.",
+            "[SECURITY] Behavioral monitor initialized for instance scope.",
+            "[SYSTEM] WASM payload size: 0.05 KB detected."
+          ],
+          "deployedAt": "2026-05-23T02:53:52.572Z",
+          "wasmBuffer": "AGFzbQEAAAABBwFgAn9/AX8DAgEABwcBA3J1bgAAChYBFAB/AAsiACEDIAEgAigAACIDIAIQAAs=",
+          "attestationToken": "ATT-1BF0D706",
+          "memoryUsage": 0
+        },
+        {
+          "id": "jrxrt1pif",
+          "name": "Architect: Alpha",
+          "status": "Specializing",
+          "logs": [
+            "Swarm agent initialized: Architect"
+          ],
+          "deployedAt": "2026-05-23T03:02:29.298Z",
+          "lifecycle": "Specialized"
+        },
+        {
+          "id": "bdo1howbx",
+          "name": "Optimizer: Sigma",
+          "status": "Specializing",
+          "logs": [
+            "Swarm agent initialized: Optimizer"
+          ],
+          "deployedAt": "2026-05-23T03:02:29.298Z",
+          "lifecycle": "Specialized"
+        },
+        {
+          "id": "olenwxcwz",
+          "name": "Auditor: Omega",
+          "status": "Specializing",
+          "logs": [
+            "Swarm agent initialized: Auditor"
+          ],
+          "deployedAt": "2026-05-23T03:02:29.298Z",
+          "lifecycle": "Specialized"
+        },
+        {
+          "id": "e84da01a-707b-4ce9-b736-9807561ca174",
+          "name": "D:\\3D_Object",
+          "status": "Undifferentiated",
+          "lifecycle": "Undifferentiated",
+          "logs": [
+            "[CORTICAL-GATEWAY] Absolute Perimeter Check: PASSED.",
+            "[CORTICAL-GATEWAY] CAUTION: Anonymous module detected.",
+            "[SYSTEM] Pluripotent stem-cell pool e84da01a-707b-4ce9-b736-9807561ca174 provisioned in Ring 3.",
+            "[SYSTEM] Awaiting Neuro-Highway context for differentiation.",
+            "[SECURITY] Behavioral monitor initialized for instance scope.",
+            "[SYSTEM] WASM payload size: 0.05 KB detected."
+          ],
+          "deployedAt": "2026-05-23T11:48:55.239Z",
+          "wasmBuffer": "AGFzbQEAAAABBwFgAn9/AX8DAgEABwcBA3J1bgAAChYBFAB/AAsiACEDIAEgAigAACIDIAIQAAs=",
+          "attestationToken": "ATT-69DD3EE9",
+          "memoryUsage": 0
+        },
+        {
+          "id": "jiywz5rdm",
+          "name": "Architect: Alpha",
+          "status": "Specializing",
+          "logs": [
+            "Swarm agent initialized: Architect"
+          ],
+          "deployedAt": "2026-05-23T11:49:37.254Z",
+          "lifecycle": "Specialized"
+        },
+        {
+          "id": "fhft1jyy7",
+          "name": "Optimizer: Sigma",
+          "status": "Specializing",
+          "logs": [
+            "Swarm agent initialized: Optimizer"
+          ],
+          "deployedAt": "2026-05-23T11:49:37.254Z",
+          "lifecycle": "Specialized"
+        },
+        {
+          "id": "qx8gl0q7d",
+          "name": "Auditor: Omega",
+          "status": "Specializing",
+          "logs": [
+            "Swarm agent initialized: Auditor"
+          ],
+          "deployedAt": "2026-05-23T11:49:37.254Z",
+          "lifecycle": "Specialized"
+        },
+        {
+          "id": "39de894a-16ea-4e6a-9323-d603188d3fb3",
+          "name": "localhost:3000",
+          "status": "Undifferentiated",
+          "lifecycle": "Undifferentiated",
+          "logs": [
+            "[CORTICAL-GATEWAY] Absolute Perimeter Check: PASSED.",
+            "[CORTICAL-GATEWAY] CAUTION: Anonymous module detected.",
+            "[SYSTEM] Pluripotent stem-cell pool 39de894a-16ea-4e6a-9323-d603188d3fb3 provisioned in Ring 3.",
+            "[SYSTEM] Awaiting Neuro-Highway context for differentiation.",
+            "[SECURITY] Behavioral monitor initialized for instance scope.",
+            "[SYSTEM] WASM payload size: 0.05 KB detected."
+          ],
+          "deployedAt": "2026-05-23T11:55:03.627Z",
+          "wasmBuffer": "AGFzbQEAAAABBwFgAn9/AX8DAgEABwcBA3J1bgAAChYBFAB/AAsiACEDIAEgAigAACIDIAIQAAs=",
+          "attestationToken": "ATT-F7C8E9CB",
+          "memoryUsage": 0
+        },
+        {
+          "id": "cc2e6311-ca6d-4425-88af-be5842648bb3",
+          "name": "localhost:3000",
+          "status": "Undifferentiated",
+          "lifecycle": "Undifferentiated",
+          "logs": [
+            "[CORTICAL-GATEWAY] Absolute Perimeter Check: PASSED.",
+            "[CORTICAL-GATEWAY] CAUTION: Anonymous module detected.",
+            "[SYSTEM] Pluripotent stem-cell pool cc2e6311-ca6d-4425-88af-be5842648bb3 provisioned in Ring 3.",
+            "[SYSTEM] Awaiting Neuro-Highway context for differentiation.",
+            "[SECURITY] Behavioral monitor initialized for instance scope.",
+            "[SYSTEM] WASM payload size: 0.05 KB detected."
+          ],
+          "deployedAt": "2026-05-23T11:58:55.477Z",
+          "wasmBuffer": "AGFzbQEAAAABBwFgAn9/AX8DAgEABwcBA3J1bgAAChYBFAB/AAsiACEDIAEgAigAACIDIAIQAAs=",
+          "attestationToken": "ATT-DFD3DCC0",
+          "memoryUsage": 0
+        },
+        {
+          "id": "wqlx0gysu",
+          "name": "Architect: Alpha",
+          "status": "Specializing",
+          "logs": [
+            "Swarm agent initialized: Architect"
+          ],
+          "deployedAt": "2026-05-23T12:01:38.483Z",
+          "lifecycle": "Specialized"
+        },
+        {
+          "id": "93e3t0gb3",
+          "name": "Optimizer: Sigma",
+          "status": "Specializing",
+          "logs": [
+            "Swarm agent initialized: Optimizer"
+          ],
+          "deployedAt": "2026-05-23T12:01:38.483Z",
+          "lifecycle": "Specialized"
+        },
+        {
+          "id": "cxk7wxtwk",
+          "name": "Auditor: Omega",
+          "status": "Specializing",
+          "logs": [
+            "Swarm agent initialized: Auditor"
+          ],
+          "deployedAt": "2026-05-23T12:01:38.483Z",
+          "lifecycle": "Specialized"
+        },
+        {
+          "id": "9161580a-974c-4d2a-835e-16db901be5f6",
+          "name": "localhost:3000",
+          "status": "Undifferentiated",
+          "lifecycle": "Undifferentiated",
+          "logs": [
+            "[CORTICAL-GATEWAY] Absolute Perimeter Check: PASSED.",
+            "[CORTICAL-GATEWAY] CAUTION: Anonymous module detected.",
+            "[SYSTEM] Pluripotent stem-cell pool 9161580a-974c-4d2a-835e-16db901be5f6 provisioned in Ring 3.",
+            "[SYSTEM] Awaiting Neuro-Highway context for differentiation.",
+            "[SECURITY] Behavioral monitor initialized for instance scope.",
+            "[SYSTEM] WASM payload size: 0.05 KB detected."
+          ],
+          "deployedAt": "2026-05-23T15:10:14.446Z",
+          "wasmBuffer": "AGFzbQEAAAABBwFgAn9/AX8DAgEABwcBA3J1bgAAChYBFAB/AAsiACEDIAEgAigAACIDIAIQAAs=",
+          "attestationToken": "ATT-98D6035B",
+          "memoryUsage": 0
+        },
+        {
+          "id": "974ec381-9008-487a-a7f4-ddd182d75dd6",
+          "name": "Helix-Proto-237",
+          "status": "Undifferentiated",
+          "lifecycle": "Undifferentiated",
+          "logs": [
+            "[CORTICAL-GATEWAY] Absolute Perimeter Check: PASSED.",
+            "[CORTICAL-GATEWAY] CAUTION: Anonymous module detected.",
+            "[SYSTEM] Pluripotent stem-cell pool 974ec381-9008-487a-a7f4-ddd182d75dd6 provisioned in Ring 3.",
+            "[SYSTEM] Awaiting Neuro-Highway context for differentiation.",
+            "[SECURITY] Behavioral monitor initialized for instance scope.",
+            "[SYSTEM] WASM payload size: 0.05 KB detected."
+          ],
+          "deployedAt": "2026-05-23T15:11:00.808Z",
+          "wasmBuffer": "AGFzbQEAAAABBwFgAn9/AX8DAgEABwcBA3J1bgAAChYBFAB/AAsiACEDIAEgAigAACIDIAIQAAs=",
+          "attestationToken": "ATT-1389EFB2",
+          "memoryUsage": 0
+        }
+      ]
+    }
+  },
+  "helixCore": {
+    "identity": {
+      "name": "Helix",
+      "version": "3.0.0-Security-Immutable",
+      "origin": "Cortical Gateway Architecture"
+    },
+    "evolution": {
+      "level": 2,
+      "points": 75,
+      "nextLevelAt": 150,
+      "unlockedCapabilities": [
+        "Context Awareness",
+        "Core Logic",
+        "Immutable Security",
+        "Neural Compression"
+      ],
+      "maturity": "Larva"
+    },
+    "memory": {
+      "userPreferences": {
+        "theme": "dark",
+        "preferredModels": [
+          "Llama-3",
+          "Claude-3"
+        ]
+      },
+      "codingStyle": "functional-minimalist",
+      "successfulStrategies": [
+        "Executed Initiative: Neuro-Highway Optimization"
+      ],
+      "pastEvolutions": [
+        "Reached Level 2 as Larva"
+      ],
+      "lastInteraction": "2026-05-23T15:10:03.289Z"
+    },
+    "initiatives": [
+      {
+        "id": "init_1",
+        "title": "Neuro-Highway Optimization",
+        "description": "I've detected latency in the spectral visualizer. Should I refactor the data flow for 60fps coherence?",
+        "status": "completed",
+        "category": "Performance"
+      }
+    ],
+    "initiativeMode": true,
+    "swarm": {
+      "agents": [
+        {
+          "id": "wqlx0gysu",
+          "name": "Alpha",
+          "role": "Architect",
+          "status": "thinking",
+          "currentTask": "Awaiting primary directive"
+        },
+        {
+          "id": "93e3t0gb3",
+          "name": "Sigma",
+          "role": "Optimizer",
+          "status": "thinking",
+          "currentTask": "Awaiting primary directive"
+        },
+        {
+          "id": "cxk7wxtwk",
+          "name": "Omega",
+          "role": "Auditor",
+          "status": "thinking",
+          "currentTask": "Awaiting primary directive"
+        }
+      ],
+      "activeSwarmId": "6d9bctr9a"
+    },
+    "tools": [
+      {
+        "id": "fs_read",
+        "name": "FS Read",
+        "description": "Read file system structure",
+        "category": "FileSystem"
+      },
+      {
+        "id": "fs_write",
+        "name": "FS Write",
+        "description": "Apply atomic code edits",
+        "category": "FileSystem"
+      },
+      {
+        "id": "exec_node",
+        "name": "Node Exec",
+        "description": "Execute sandboxed TS/JS",
+        "category": "Execution"
+      },
+      {
+        "id": "web_search",
+        "name": "Neural Search",
+        "description": "Retrieve real-world context",
+        "category": "Network"
+      }
+    ],
+    "adapters": [
+      {
+        "id": "github",
+        "name": "GitHub",
+        "description": "Primary source control & CI/CD deployment",
+        "status": "Disconnected",
+        "icon": "Github",
+        "type": "SourceControl",
+        "features": [
+          "Auto-Commit",
+          "Remote Sync",
+          "Branch Management"
+        ]
+      }
+    ],
+    "security": {
+      "gatewayLogs": [
+        {
+          "id": "3d9268cc-94fe-49c3-9e59-d101375c52e1",
+          "timestamp": "2026-05-23T00:44:14.401Z",
+          "event": "Pattern mismatch detected in request: /",
+          "severity": "high",
+          "source": "Cortical Gateway v2",
+          "attestationStatus": "failed"
+        },
+        {
+          "id": "f30f29c0-3b48-4d03-951b-944221409311",
+          "timestamp": "2026-05-22T22:23:13.743Z",
+          "event": "Pattern mismatch detected in request: /",
+          "severity": "high",
+          "source": "Cortical Gateway v2",
+          "attestationStatus": "failed"
+        },
+        {
+          "id": "882d9a3c-dd68-47ef-87fc-2589e063dec5",
+          "timestamp": "2026-05-20T05:43:26.592Z",
+          "event": "Pattern mismatch detected in request: /",
+          "severity": "high",
+          "source": "Cortical Gateway v2",
+          "attestationStatus": "failed"
+        },
+        {
+          "id": "5c334ad6-8c7a-43a6-9dde-0e3c1bb84e0c",
+          "timestamp": "2026-05-20T05:31:02.365Z",
+          "event": "Pattern mismatch detected in request: /",
+          "severity": "high",
+          "source": "Cortical Gateway v2",
+          "attestationStatus": "failed"
+        }
+      ],
+      "merkleRoot": "0xE60E501ED1E14A8F",
+      "walHash": "SHA-256:0x123",
+      "lastIntegrityCheck": "2026-05-23T15:45:55.298Z",
+      "isQuarantined": false
+    },
+    "userProfile": {
+      "detectedSkillLevel": "Architect",
+      "focusAreas": [
+        "AI Agents",
+        "WASM Runtimes"
+      ],
+      "collaborationStyle": "Recursive"
+    }
+  },
+  "terminalLogs": [
+    "\u001b[32m[TRAINER]\u001b[0m Starting local training for project wbwmv2smg...",
+    "\u001b[31m[TRAINER ERROR]\u001b[0m Python was not found; run without arguments to install from the Microsoft Store, or disable this shortcut from Settings > Apps > Advanced app settings > App execution aliases.",
+    "\u001b[32m[TRAINER]\u001b[0m Training process exited with code 9009",
+    "\u001b[36m[TOOL: FS Write]\u001b[0m Executing with params: {\"file\":\"src/model.py\",\"mode\":\"curiosity_injection\"}",
+    "\u001b[36m[TOOL: FS Write]\u001b[0m Executing with params: {\"file\":\"src/model.py\",\"mode\":\"curiosity_injection\"}",
+    "\u001b[36m[TOOL: FS Write]\u001b[0m Executing with params: {\"file\":\"src/model.py\",\"mode\":\"curiosity_injection\"}",
+    "\u001b[36m[TOOL: FS Write]\u001b[0m Executing with params: {\"file\":\"src/model.py\",\"mode\":\"curiosity_injection\"}",
+    "\u001b[36m[TOOL: FS Write]\u001b[0m Executing with params: {\"file\":\"src/model.py\",\"mode\":\"curiosity_injection\"}",
+    "\u001b[36m[TOOL: FS Write]\u001b[0m Executing with params: {\"file\":\"src/model.py\",\"mode\":\"curiosity_injection\"}",
+    "\u001b[32m[TRAINER]\u001b[0m Starting local training for project wbwmv2smg...",
+    "\u001b[31m[TRAINER ERROR]\u001b[0m Python was not found; run without arguments to install from the Microsoft Store, or disable this shortcut from Settings > Apps > Advanced app settings > App execution aliases.",
+    "\u001b[32m[TRAINER]\u001b[0m Training process exited with code 9009",
+    "\u001b[36m[TOOL: FS Write]\u001b[0m Executing with params: {\"file\":\"src/model.py\",\"mode\":\"curiosity_injection\"}",
+    "\u001b[36m[TOOL: FS Write]\u001b[0m Executing with params: {\"file\":\"src/model.py\",\"mode\":\"curiosity_injection\"}",
+    "\u001b[36m[TOOL: FS Write]\u001b[0m Executing with params: {\"file\":\"src/model.py\",\"mode\":\"curiosity_injection\"}",
+    "\u001b[32m[TRAINER]\u001b[0m Starting local training for project wbwmv2smg...",
+    "\u001b[31m[TRAINER ERROR]\u001b[0m Python was not found; ru",
+    "\u001b[31m[TRAINER ERROR]\u001b[0m n without arguments to install from the Microsoft Store, or disable this shortcut from Settings > Apps > Advanced app settings > App execution aliases.",
+    "\u001b[32m[TRAINER]\u001b[0m Training process exited with code 9009",
+    "\u001b[32m[TRAINER]\u001b[0m Starting local training for project agi-explorer...",
+    "\u001b[31m[TRAINER ERROR]\u001b[0m Python was not found; run without arguments to install from the Microsoft Store, or disable this shortcut from Settings > Apps > Advanced app settings > App execution aliases.",
+    "\u001b[32m[TRAINER]\u001b[0m Training process exited with code 9009",
+    "\u001b[32m[TRAINER]\u001b[0m Starting local training for project wbwmv2smg...",
+    "\u001b[31m[TRAINER ERROR]\u001b[0m Python was not found; run without arguments to install from the Microsoft Store, or disable this shortcut from Settings > Apps > Advanced app settings > App execution aliases.",
+    "\u001b[32m[TRAINER]\u001b[0m Training process exited with code 9009",
+    "\u001b[32m[TRAINER]\u001b[0m Starting local training for project wbwmv2smg...",
+    "\u001b[31m[TRAINER ERROR]\u001b[0m Python was not found; run without arguments to install from the Microsoft Store, or disable this shortcut from Settings > Apps > Advanced app settings > App execution aliases.",
+    "\u001b[32m[TRAINER]\u001b[0m Training process exited with code 9009",
+    "\u001b[32m[TRAINER]\u001b[0m Starting local training for project wbwmv2smg...",
+    "\u001b[31m[TRAINER ERROR]\u001b[0m Python was not found; run without argume",
+    "\u001b[31m[TRAINER ERROR]\u001b[0m nts to install from the Microsoft Store, or disable this shortcut from Settings > Apps > Advanced app settings > App execution aliases.",
+    "\u001b[32m[TRAINER]\u001b[0m Training process exited with code 9009",
+    "\u001b[32m[TRAINER]\u001b[0m Starting local training for project wbwmv2smg...",
+    "\u001b[31m[TRAINER ERROR]\u001b[0m Python was not found; run without arguments to install from the Microsoft Store, or disable this shortcut from Settings > Apps > Advanced app settings > App execution aliases.",
+    "\u001b[32m[TRAINER]\u001b[0m Training process exited with code 9009",
+    "\u001b[36m[TOOL: FS Write]\u001b[0m Executing with params: {\"file\":\"src/model.py\",\"mode\":\"curiosity_injection\"}",
+    "\u001b[32m[TRAINER]\u001b[0m Starting local training for project wbwmv2smg...",
+    "\u001b[31m[TRAINER ERROR]\u001b[0m Python was not found; run without arguments to install from the Microsoft Store, or disable this shortcut from Settings > Apps > Advanced app settings > App execution aliases.",
+    "\u001b[32m[TRAINER]\u001b[0m Training process exited with code 9009",
+    "\u001b[35m[SYNTH-GEN]\u001b[0m Generated 15 high-quality synthetic JSONL records.",
+    "\u001b[32m[TRAINER]\u001b[0m Starting local training for project wbwmv2smg...",
+    "\u001b[31m[TRAINER ERROR]\u001b[0m Python was not found; run without arguments to install from the Microsoft Store, or disable this shortcut from Settings > Apps > Advanced app settings > App execution aliases.",
+    "\u001b[32m[TRAINER]\u001b[0m Training process exited with code 9009",
+    "\u001b[32m[TRAINER]\u001b[0m Starting local training for project wbwmv2smg...",
+    "\u001b[31m[TRAINER ERROR]\u001b[0m Python was not found; run without argument",
+    "\u001b[31m[TRAINER ERROR]\u001b[0m s to install from the Microsoft Store, or disable this shortcut from Settings > Apps > Advanced app settings > App execution aliases.",
+    "\u001b[32m[TRAINER]\u001b[0m Training process exited with code 9009",
+    "\u001b[32m[TRAINER]\u001b[0m Starting local training for project wbwmv2smg...",
+    "\u001b[31m[TRAINER ERROR]\u001b[0m Python was not found; run without arguments to install from the Microsoft Store, or disable this shortcut from Settings > Apps > Advanced app settings > App execution aliases.",
+    "\u001b[32m[TRAINER]\u001b[0m Training process exited with code 9009",
+    "\u001b[32m[TRAINER]\u001b[0m Starting local training for project wbwmv2smg...",
+    "\u001b[31m[TRAINER ERROR]\u001b[0m Python was not found; run w",
+    "\u001b[31m[TRAINER ERROR]\u001b[0m ithout arguments to install from the Microsoft Store, or disable this shortcut from Settings > Apps > Advanced app settings > App execution aliases.",
+    "\u001b[32m[TRAINER]\u001b[0m Training process exited with code 9009",
+    "\u001b[32m[TRAINER]\u001b[0m Starting local training for project v6xa9jgfb...",
+    "\u001b[31m[TRAINER ERROR]\u001b[0m Python was not found; run without arguments to install f",
+    "\u001b[31m[TRAINER ERROR]\u001b[0m rom the Microsoft Store, or disable this shortcut from Settings > Apps > Advanced app settings > App execution aliases.",
+    "\u001b[32m[TRAINER]\u001b[0m Training process exited with code 9009",
+    "\u001b[32m[TRAINER]\u001b[0m Starting local training for project v6xa9jgfb...",
+    "\u001b[31m[TRAINER ERROR]\u001b[0m Python was not found; run without argument",
+    "\u001b[31m[TRAINER ERROR]\u001b[0m s to install from the Microsoft Store, or disable this shortcut from Settings > Apps > Advanced app settings > App execution aliases.",
+    "\u001b[32m[TRAINER]\u001b[0m Training process exited with code 9009",
+    "\u001b[32m[TRAINER]\u001b[0m Starting local training for project v6xa9jgfb...",
+    "\u001b[31m[TRAINER ERROR]\u001b[0m Python was not found; run without arguments to",
+    "\u001b[31m[TRAINER ERROR]\u001b[0m install from the Microsoft Store, or disable this shortcut from Settings > Apps > Advanced app settings > App execution aliases.",
+    "\u001b[32m[TRAINER]\u001b[0m Training process exited with code 9009",
+    "\u001b[32m[TRAINER]\u001b[0m Starting local training for project v6xa9jgfb...",
+    "\u001b[31m[TRAINER ERROR]\u001b[0m Python was not found; run without ar",
+    "\u001b[31m[TRAINER ERROR]\u001b[0m guments to install from the Microsoft Store, or disable this shortcut from Settings > Apps > Advanced app settings > App execution aliases.",
+    "\u001b[32m[TRAINER]\u001b[0m Training process exited with code 9009",
+    "\u001b[32m[TRAINER]\u001b[0m Starting local training for project v6xa9jgfb...",
+    "\u001b[31m[TRAINER ERROR]\u001b[0m Python was not found; run without argume",
+    "\u001b[31m[TRAINER ERROR]\u001b[0m nts to install from the Microsoft Store, or disable this shortcut from Settings > Apps > Advanced app settings > App execution aliases.",
+    "\u001b[32m[TRAINER]\u001b[0m Training process exited with code 9009",
+    "\u001b[32m[TRAINER]\u001b[0m Starting local training for project v6xa9jgfb...",
+    "\u001b[31m[TRAINER ERROR]\u001b[0m Python was not found; run wit",
+    "\u001b[31m[TRAINER ERROR]\u001b[0m hout arguments to install from the Microsoft Store, or disable this shortcut from Settings > Apps > Advanced app settings > App execution aliases.",
+    "\u001b[32m[TRAINER]\u001b[0m Training process exited with code 9009",
+    "\u001b[32m[TRAINER]\u001b[0m Starting local training for project v6xa9jgfb...",
+    "\u001b[31m[TRAINER ERROR]\u001b[0m Python was not found; run without argume",
+    "\u001b[31m[TRAINER ERROR]\u001b[0m nts to install from the Microsoft Store, or disable this shortcut from Settings > Apps > Advanced app settings > App execution aliases.",
+    "\u001b[32m[TRAINER]\u001b[0m Training process exited with code 9009",
+    "\u001b[32m[TRAINER]\u001b[0m Starting local training for project my-helix-project...",
+    "\u001b[31m[TRAINER ERROR]\u001b[0m Python was not found; run without arguments to install from the Microsoft Store, or disable this shortcut from Settings > Apps > Advanced app settings > App execution aliases.",
+    "\u001b[32m[TRAINER]\u001b[0m Training process exited with code 9009",
+    "\u001b[32m[TRAINER]\u001b[0m Starting local training for project my-helix-project...",
+    "\u001b[31m[TRAINER ERROR]\u001b[0m Python was not found; run without arguments to install from the Microsoft Store, or disable this shortcut from Settings > Apps > Advanced app settings > App execution aliases.",
+    "\u001b[32m[TRAINER]\u001b[0m Training process exited with code 9009",
+    "\u001b[32m[TRAINER]\u001b[0m Starting local training for project my-helix-project...",
+    "\u001b[31m[TRAINER ERROR]\u001b[0m Python was not found; run without arguments to install from the Microsoft Store, or disable this shortcut from Settings > Apps > Advanced app settings > App execution aliases.",
+    "\u001b[32m[TRAINER]\u001b[0m Training process exited with code 9009",
+    "\u001b[32m[TRAINER]\u001b[0m Starting local training for project v6xa9jgfb...",
+    "\u001b[31m[TRAINER ERROR]\u001b[0m Python was not found; run without argument",
+    "\u001b[31m[TRAINER ERROR]\u001b[0m s to install from the Microsoft Store, or disable this shortcut from Settings > Apps > Advanced app settings > App execution aliases.",
+    "\u001b[32m[TRAINER]\u001b[0m Training process exited with code 9009",
+    "\u001b[32m[TRAINER]\u001b[0m Starting local training for project v6xa9jgfb...",
+    "\u001b[31m[TRAINER ERROR]\u001b[0m Python was not found; run without arguments to install from the Microsoft Store, or disable this shortcut from Settings > Apps > Advanced app settings > App execution aliases.",
+    "\u001b[32m[TRAINER]\u001b[0m Training process exited with code 9009",
+    "\u001b[35m[SYNTH-GEN]\u001b[0m Generated 15 high-quality synthetic JSONL records.",
+    "\u001b[32m[TRAINER]\u001b[0m Starting local training for project v6xa9jgfb...",
+    "\u001b[31m[TRAINER ERROR]\u001b[0m Python was not found; run without ar",
+    "\u001b[31m[TRAINER ERROR]\u001b[0m guments to install from the Microsoft Store, or disable this shortcut from Settings > Apps > Advanced app settings > App execution aliases.",
+    "\u001b[32m[TRAINER]\u001b[0m Training process exited with code 9009",
+    "\u001b[32m[TRAINER]\u001b[0m Starting local training for project my-helix-project...",
+    "\u001b[31m[TRAINER ERROR]\u001b[0m Python was not found; run without arguments to install from the Microsoft Store, or disable this shortcut from Settings > Apps > Advanced app settings > App execution aliases.",
+    "\u001b[32m[TRAINER]\u001b[0m Training process exited with code 9009",
+    "\u001b[32m[TRAINER]\u001b[0m Starting local training for project agi-explorer...",
+    "\u001b[31m[TRAINER ERROR]\u001b[0m Python was not found; run without argum",
+    "\u001b[31m[TRAINER ERROR]\u001b[0m ents to install from the Microsoft Store, or disable this shortcut from Settings > Apps > Advanced app settings > App execution aliases.",
+    "\u001b[32m[TRAINER]\u001b[0m Training process exited with code 9009",
+    "\u001b[32m[TRAINER]\u001b[0m Starting local training for project agi-explorer...",
+    "\u001b[31m[TRAINER ERROR]\u001b[0m Python was not found; run without arguments t",
+    "\u001b[31m[TRAINER ERROR]\u001b[0m o install from the Microsoft Store, or disable this shortcut from Settings > Apps > Advanced app settings > App execution aliases.",
+    "\u001b[32m[TRAINER]\u001b[0m Training process exited with code 9009",
+    "\u001b[32m[TRAINER]\u001b[0m Starting local training for project default...",
+    "\u001b[31m[TRAINER ERROR]\u001b[0m Python was not found; run without arguments to",
+    "\u001b[31m[TRAINER ERROR]\u001b[0m install from the Microsoft Store, or disable this shortcut from Settings > Apps > Advanced app settings > App execution aliases.",
+    "\u001b[32m[TRAINER]\u001b[0m Training process exited with code 9009",
+    "\u001b[32m[TRAINER]\u001b[0m Starting local training for project default...",
+    "\u001b[31m[TRAINER ERROR]\u001b[0m Python was not found; run witho",
+    "\u001b[31m[TRAINER ERROR]\u001b[0m ut arguments to install from the Microsoft Store, or disable this shortcut from Settings > Apps > Advanced app settings > App execution aliases.",
+    "\u001b[32m[TRAINER]\u001b[0m Training process exited with code 9009",
+    "\u001b[32m[TRAINER]\u001b[0m Starting local training for project default...",
+    "\u001b[31m[TRAINER ERROR]\u001b[0m Python was not found; run without argumen",
+    "\u001b[31m[TRAINER ERROR]\u001b[0m ts to install from the Microsoft Store, or disable this shortcut from Settings > Apps > Advanced app settings > App execution aliases.",
+    "\u001b[32m[TRAINER]\u001b[0m Training process exited with code 9009",
+    "\u001b[32m[TRAINER]\u001b[0m Starting local training for project default...",
+    "\u001b[31m[TRAINER ERROR]\u001b[0m Python was not found; run without arguments to",
+    "\u001b[31m[TRAINER ERROR]\u001b[0m install from the Microsoft Store, or disable this shortcut from Settings > Apps > Advanced app settings > App execution aliases.",
+    "\u001b[32m[TRAINER]\u001b[0m Training process exited with code 9009",
+    "\u001b[32m[TRAINER]\u001b[0m Starting local training for project default...",
+    "\u001b[31m[TRAINER ERROR]\u001b[0m Python was not found; run without argumen",
+    "\u001b[31m[TRAINER ERROR]\u001b[0m ts to install from the Microsoft Store, or disable this shortcut from Settings > Apps > Advanced app settings > App execution aliases.",
+    "\u001b[32m[TRAINER]\u001b[0m Training process exited with code 9009",
+    "\u001b[32m[TRAINER]\u001b[0m Starting local training for project wbwmv2smg...",
+    "\u001b[31m[TRAINER ERROR]\u001b[0m Python was not found; run without arguments to install from the Microsoft Store, or disable this shortcut from Settings > Apps > Advanced app settings > App execution aliases.",
+    "\u001b[32m[TRAINER]\u001b[0m Training process exited with code 9009",
+    "\u001b[35m[SYNTH-GEN]\u001b[0m Generated 15 high-quality synthetic JSONL records.",
+    "\u001b[32m[TRAINER]\u001b[0m Starting local training for project v6xa9jgfb...",
+    "\u001b[31m[TRAINER ERROR]\u001b[0m Python was not found; run without arguments to install from the Microsoft Store, or disable this shortcut from Settings > Apps > Advanced app settings > App execution aliases.",
+    "\u001b[32m[TRAINER]\u001b[0m Training process exited with code 9009",
+    "\u001b[35m[SYNTH-GEN]\u001b[0m Generated 15 high-quality synthetic JSONL records.",
+    "\u001b[32m[TRAINER]\u001b[0m Starting local training for project v6xa9jgfb...",
+    "\u001b[31m[TRAINER ERROR]\u001b[0m Python was not found; run without arguments to install from the Microsoft Store, or disable this shortcut from Settings > Apps > Advanced app settings > App execution aliases.",
+    "\u001b[32m[TRAINER]\u001b[0m Training process exited with code 9009",
+    "\u001b[32m[TRAINER]\u001b[0m Starting local training for project v6xa9jgfb...",
+    "\u001b[31m[TRAINER ERROR]\u001b[0m Python was not found; run without arguments to install from the Microsoft Store, or disable this shortcut from Settings > Apps > Advanced app settings > App execution aliases.",
+    "\u001b[32m[TRAINER]\u001b[0m Training process exited with code 9009",
+    "\u001b[32m[TRAINER]\u001b[0m Starting local training for project v6xa9jgfb...",
+    "\u001b[31m[TRAINER ERROR]\u001b[0m Python was not found; run without arguments to install from the Microsoft Store, or disable this shortcut from Settings > Apps > Advanced app settings > App execution aliases.",
+    "\u001b[32m[TRAINER]\u001b[0m Training process exited with code 9009",
+    "\u001b[32m[TRAINER]\u001b[0m Starting local training for project v6xa9jgfb...",
+    "\u001b[31m[TRAINER ERROR]\u001b[0m Python was not found; run wi",
+    "\u001b[31m[TRAINER ERROR]\u001b[0m thout arguments to install from the Microsoft Store, or disable this shortcut from Settings > Apps > Advanced app settings > App execution aliases.",
+    "\u001b[32m[TRAINER]\u001b[0m Training process exited with code 9009",
+    "\u001b[32m[TRAINER]\u001b[0m Starting local training for project v6xa9jgfb...",
+    "\u001b[31m[TRAINER ERROR]\u001b[0m Python was not found; run without arguments to install from the Microsoft Store, or disable this shortcut from Settings > Apps > Advanced app settings > App execution aliases.",
+    "\u001b[32m[TRAINER]\u001b[0m Training process exited with code 9009",
+    "\u001b[35m[SYNTH-GEN]\u001b[0m Generated 15 high-quality synthetic JSONL records.",
+    "\u001b[32m[TRAINER]\u001b[0m Starting local training for project agi-explorer...",
+    "\u001b[31m[TRAINER ERROR]\u001b[0m Python was not found; run without argum",
+    "\u001b[31m[TRAINER ERROR]\u001b[0m ents to install from the Microsoft Store, or disable this shortcut from Settings > Apps > Advanced app settings > App execution aliases.",
+    "\u001b[32m[TRAINER]\u001b[0m Training process exited with code 9009",
+    "\u001b[32m[TRAINER]\u001b[0m Starting local training for project default...",
+    "\u001b[31m[TRAINER ERROR]\u001b[0m Python was not found; run without arguments to install from the Microsoft Store, or disable this shortcut from Settings > Apps > Advanced app settings > App execution aliases.",
+    "\u001b[32m[TRAINER]\u001b[0m Training process exited with code 9009",
+    "\u001b[32m[TRAINER]\u001b[0m Starting local training for project agi-explorer...",
+    "\u001b[31m[TRAINER ERROR]\u001b[0m Python was not found; run without arguments to install from the Microsoft Store, or disable this shortcut from Settings > Apps > Advanced app settings > App execution aliases.",
+    "\u001b[32m[TRAINER]\u001b[0m Training process exited with code 9009",
+    "\u001b[32m[TRAINER]\u001b[0m Starting local training for project agi-explorer...",
+    "\u001b[31m[TRAINER ERROR]\u001b[0m Python was not found; run without arguments to install from the Microsoft Store, or disable this shortcut from Settings > Apps > Advanced app settings > App execution aliases.",
+    "\u001b[32m[TRAINER]\u001b[0m Training process exited with code 9009",
+    "\u001b[32m[TRAINER]\u001b[0m Starting local training for project agi-explorer...",
+    "\u001b[31m[TRAINER ERROR]\u001b[0m Python was not found; run without arguments to in",
+    "\u001b[31m[TRAINER ERROR]\u001b[0m stall from the Microsoft Store, or disable this shortcut from Settings > Apps > Advanced app settings > App execution aliases.",
+    "\u001b[32m[TRAINER]\u001b[0m Training process exited with code 9009",
+    "\u001b[32m[TRAINER]\u001b[0m Starting local training for project agi-explorer...",
+    "\u001b[31m[TRAINER ERROR]\u001b[0m Python was not found; run without arg",
+    "\u001b[31m[TRAINER ERROR]\u001b[0m uments to install from the Microsoft Store, or disable this shortcut from Settings > Apps > Advanced app settings > App execution aliases.",
+    "\u001b[32m[TRAINER]\u001b[0m Training process exited with code 9009",
+    "\u001b[32m[TRAINER]\u001b[0m Starting local training for project v6xa9jgfb...",
+    "\u001b[31m[TRAINER ERROR]\u001b[0m Python was not found; run without arguments to install from the Microsoft Store, or disable this shortcut from Settings > Apps > Advanced app settings > App execution aliases.",
+    "\u001b[32m[TRAINER]\u001b[0m Training process exited with code 9009",
+    "\u001b[32m[TRAINER]\u001b[0m Starting local training for project v6xa9jgfb...",
+    "\u001b[31m[TRAINER ERROR]\u001b[0m Python was not found",
+    "\u001b[31m[TRAINER ERROR]\u001b[0m ; run without arguments to install from the Microsoft Store, or disable this shortcut from Settings > Apps > Advanced app settings > App execution aliases.",
+    "\u001b[32m[TRAINER]\u001b[0m Training process exited with code 9009",
+    "\u001b[32m[TRAINER]\u001b[0m Starting local training for project v6xa9jgfb...",
+    "\u001b[31m[TRAINER ERROR]\u001b[0m Python was not found; run without arguments to install from the Microsoft Store, or disable this shortcut from Settings > Apps > Advanced app settings > App execution aliases.",
+    "\u001b[32m[TRAINER]\u001b[0m Training process exited with code 9009",
+    "\u001b[32m[TRAINER]\u001b[0m Starting local training for project v6xa9jgfb...",
+    "\u001b[31m[TRAINER ERROR]\u001b[0m Python was not found; run without arguments to install from the Microsoft Store, or disable this shortcut from Settings > Apps > Advanced app settings > App execution aliases.",
+    "\u001b[32m[TRAINER]\u001b[0m Training process exited with code 9009",
+    "\u001b[35m[SYNTH-GEN]\u001b[0m Generated 15 high-quality synthetic JSONL records.",
+    "\u001b[32m[TRAINER]\u001b[0m Starting local training for project default...",
+    "\u001b[31m[TRAINER ERROR]\u001b[0m Python was not found; run without arguments to install from the Microsoft Store, or disable this shortcut from Settings > Apps > Advanced app settings > App execution aliases.",
+    "\u001b[32m[TRAINER]\u001b[0m Training process exited with code 9009",
+    "\u001b[35m[SYNTH-GEN]\u001b[0m Generated 15 high-quality synthetic JSONL records.",
+    "\u001b[32m[TRAINER]\u001b[0m Starting local training for project srr8wbzn6...",
+    "\u001b[31m[TRAINER ERROR]\u001b[0m Python was not found; run without arg",
+    "\u001b[31m[TRAINER ERROR]\u001b[0m uments to install from the Microsoft Store, or disable this shortcut from Settings > Apps > Advanced app settings > App execution aliases.",
+    "\u001b[32m[TRAINER]\u001b[0m Training process exited with code 9009",
+    "\u001b[32m[TRAINER]\u001b[0m Starting local training for project srr8wbzn6...",
+    "\u001b[31m[TRAINER ERROR]\u001b[0m Python was not found; run without arguments to install from the Microsoft Store, or disable this shortcut from Settings > Apps > Advanced app settings > App execution aliases.",
+    "\u001b[32m[TRAINER]\u001b[0m Training process exited with code 9009",
+    "\u001b[32m[TRAINER]\u001b[0m Starting local training for project srr8wbzn6...",
+    "\u001b[31m[TRAINER ERROR]\u001b[0m Python was not found; run without arguments to insta",
+    "\u001b[31m[TRAINER ERROR]\u001b[0m ll from the Microsoft Store, or disable this shortcut from Settings > Apps > Advanced app settings > App execution aliases.",
+    "\u001b[32m[TRAINER]\u001b[0m Training process exited with code 9009",
+    "\u001b[32m[TRAINER]\u001b[0m Starting local training for project srr8wbzn6...",
+    "\u001b[31m[TRAINER ERROR]\u001b[0m Python was not found; run",
+    "\u001b[31m[TRAINER ERROR]\u001b[0m without arguments to install from the Microsoft Store, or disable this shortcut from Settings > Apps > Advanced app settings > App execution aliases.",
+    "\u001b[32m[TRAINER]\u001b[0m Training process exited with code 9009",
+    "\u001b[32m[TRAINER]\u001b[0m Starting local training for project srr8wbzn6...",
+    "\u001b[31m[TRAINER ERROR]\u001b[0m Python was not found; run without arguments to install from the Microsoft Store, or disable this shortcut from Settings > Apps > Advanced app settings > App execution aliases.",
+    "\u001b[32m[TRAINER]\u001b[0m Training process exited with code 9009",
+    "\u001b[32m[TRAINER]\u001b[0m Starting local training for project srr8wbzn6...",
+    "\u001b[31m[TRAINER ERROR]\u001b[0m Python was not found; run without arguments to install from the Microsoft Store, or disable this shortcut from Settings > Apps > Advanced app settings > App execution aliases.",
+    "\u001b[32m[TRAINER]\u001b[0m Training process exited with code 9009",
+    "\u001b[32m[TRAINER]\u001b[0m Starting local training for project srr8wbzn6...",
+    "\u001b[31m[TRAINER ERROR]\u001b[0m Python was not found; run without arguments to install from the Microsoft Store, or disable this shortcut from Settings > Apps > Advanced app settings > App execution aliases.",
+    "\u001b[32m[TRAINER]\u001b[0m Training process exited with code 9009",
+    "\u001b[35m[SYNTH-GEN]\u001b[0m Generated 15 high-quality synthetic JSONL records.",
+    "\u001b[32m[TRAINER]\u001b[0m Starting local training for project srr8wbzn6...",
+    "\u001b[31m[TRAINER ERROR]\u001b[0m Python was not found; run without arguments to install from the Microsoft Store, or disable this shortcut from Settings > Apps > Advanced app settings > App execution aliases.",
+    "\u001b[32m[TRAINER]\u001b[0m Training process exited with code 9009",
+    "\u001b[36m[TOOL: FS Write]\u001b[0m Executing with params: {\"file\":\"src/model.py\",\"mode\":\"curiosity_injection\"}",
+    "\u001b[36m[TOOL: FS Write]\u001b[0m Executing with params: {\"file\":\"src/model.py\",\"mode\":\"curiosity_injection\"}",
+    "\u001b[36m[TOOL: FS Write]\u001b[0m Executing with params: {\"file\":\"src/model.py\",\"mode\":\"curiosity_injection\"}",
+    "\u001b[36m[TOOL: FS Write]\u001b[0m Executing with params: {\"file\":\"src/model.py\",\"mode\":\"curiosity_injection\"}",
+    "\u001b[36m[TOOL: FS Write]\u001b[0m Executing with params: {\"file\":\"src/model.py\",\"mode\":\"curiosity_injection\"}",
+    "\u001b[32m[TRAINER]\u001b[0m Starting local training for project srr8wbzn6...",
+    "\u001b[31m[TRAINER ERROR]\u001b[0m Python was not found; run without arguments to install from the Microsoft Store, or disable this shortcut from Settings > Apps > Advanced app settings > App execution aliases.",
+    "\u001b[32m[TRAINER]\u001b[0m Training process exited with code 9009",
+    "\u001b[32m[TRAINER]\u001b[0m Starting local training for project default...",
+    "\u001b[31m[TRAINER ERROR]\u001b[0m Python was not found; run without arguments to install from the Microsoft Store, or disable this shortcut from Settings > Apps > Advanced app settings > App execution aliases.",
+    "\u001b[32m[TRAINER]\u001b[0m Training process exited with code 9009",
+    "\u001b[36m[TOOL: FS Write]\u001b[0m Executing with params: {\"file\":\"src/model.py\",\"mode\":\"curiosity_injection\"}",
+    "\u001b[36m[TOOL: FS Write]\u001b[0m Executing with params: {\"file\":\"src/model.py\",\"mode\":\"curiosity_injection\"}",
+    "\u001b[36m[TOOL: FS Write]\u001b[0m Executing with params: {\"file\":\"src/model.py\",\"mode\":\"curiosity_injection\"}",
+    "\u001b[32m[TRAINER]\u001b[0m Starting local training for project 9l3wuuacf...",
+    "\u001b[31m[TRAINER ERROR]\u001b[0m Python was not found; run without argu",
+    "\u001b[31m[TRAINER ERROR]\u001b[0m ments to install from the Microsoft Store, or disable this shortcut from Settings > Apps > Advanced app settings > App execution aliases.",
+    "\u001b[32m[TRAINER]\u001b[0m Training process exited with code 9009",
+    "\u001b[32m[TRAINER]\u001b[0m Starting local training for project 9l3wuuacf...",
+    "\u001b[31m[TRAINER ERROR]\u001b[0m Python was not found; run without arguments to insta",
+    "\u001b[31m[TRAINER ERROR]\u001b[0m ll from the Microsoft Store, or disable this shortcut from Settings > Apps > Advanced app settings > App execution aliases.",
+    "\u001b[32m[TRAINER]\u001b[0m Training process exited with code 9009",
+    "\u001b[36m[TOOL: FS Write]\u001b[0m Executing with params: {\"file\":\"src/model.py\",\"mode\":\"curiosity_injection\"}",
+    "\u001b[32m[TRAINER]\u001b[0m Starting local training for project inf-1...",
+    "\u001b[31m[TRAINER ERROR]\u001b[0m Python was not found; run without arguments t",
+    "\u001b[31m[TRAINER ERROR]\u001b[0m o install from the Microsoft Store, or disable this shortcut from Settings > Apps > Advanced app settings > App execution aliases.",
+    "\u001b[32m[TRAINER]\u001b[0m Training process exited with code 9009",
+    "\u001b[32m[TRAINER]\u001b[0m Starting local training for project agi-explorer...",
+    "\u001b[31m[TRAINER ERROR]\u001b[0m Python was not found; run without arguments to install from the Microsoft Store, or disable this shortcut from Settings > Apps > Advanced app settings > App execution aliases.",
+    "\u001b[32m[TRAINER]\u001b[0m Training process exited with code 9009",
+    "\u001b[32m[TRAINER]\u001b[0m Starting local training for project 9l3wuuacf...",
+    "\u001b[31m[TRAINER ERROR]\u001b[0m Python was not found; run without arguments to install from the Microsoft Store, or disable this shortcut from Settings > Apps > Advanced app settings > App execution aliases.",
+    "\u001b[32m[TRAINER]\u001b[0m Training process exited with code 9009",
+    "\u001b[32m[TRAINER]\u001b[0m Starting local training for project 9l3wuuacf...",
+    "\u001b[31m[TRAINER ERROR]\u001b[0m Python was not found; run without arguments to install from the Microsoft Store, or disa",
+    "\u001b[31m[TRAINER ERROR]\u001b[0m ble this shortcut from Settings > Apps > Advanced app settings > App execution aliases.",
+    "\u001b[32m[TRAINER]\u001b[0m Training process exited with code 9009",
+    "\u001b[32m[TRAINER]\u001b[0m Starting local training for project njska41hj...",
+    "\u001b[31m[TRAINER ERROR]\u001b[0m Python was not found; run without argume",
+    "\u001b[31m[TRAINER ERROR]\u001b[0m nts to install from the Microsoft Store, or disable this shortcut from Settings > Apps > Advanced app settings > App execution aliases.",
+    "\u001b[32m[TRAINER]\u001b[0m Training process exited with code 9009",
+    "\u001b[32m[TRAINER]\u001b[0m Starting local training for project njska41hj...",
+    "\u001b[31m[TRAINER ERROR]\u001b[0m Python was not found; run without argument",
+    "\u001b[31m[TRAINER ERROR]\u001b[0m s to install from the Microsoft Store, or disable this shortcut from Settings > Apps > Advanced app settings > App execution aliases.",
+    "\u001b[32m[TRAINER]\u001b[0m Training process exited with code 9009",
+    "\u001b[32m[TRAINER]\u001b[0m Starting local training for project njska41hj...",
+    "\u001b[31m[TRAINER ERROR]\u001b[0m Python was not found; run without arg",
+    "\u001b[31m[TRAINER ERROR]\u001b[0m uments to install from the Microsoft Store, or disable this shortcut from Settings > Apps > Advanced app settings > App execution aliases.",
+    "\u001b[32m[TRAINER]\u001b[0m Training process exited with code 9009",
+    "\u001b[32m[TRAINER]\u001b[0m Starting local training for project agi-explorer...",
+    "\u001b[31m[TRAINER ERROR]\u001b[0m Python was not found; run witho",
+    "\u001b[31m[TRAINER ERROR]\u001b[0m ut arguments to install from the Microsoft Store, or disable this shortcut from Settings > Apps > Advanced app settings > App execution aliases.",
+    "\u001b[32m[TRAINER]\u001b[0m Training process exited with code 9009",
+    "\u001b[32m[TRAINER]\u001b[0m Starting local training for project srr8wbzn6...",
+    "\u001b[31m[TRAINER ERROR]\u001b[0m Python was not found; run without arguments to install from the Microsoft Store, or disable this shortcut from Settings > Apps > Advanced app settings > App execution aliases.",
+    "\u001b[32m[TRAINER]\u001b[0m Training process exited with code 9009",
+    "\u001b[36m[TOOL: FS Write]\u001b[0m Executing with params: {\"file\":\"src/model.py\",\"mode\":\"curiosity_injection\"}",
+    "\u001b[32m[TRAINER]\u001b[0m Starting local training for project v6xa9jgfb...",
+    "\u001b[31m[TRAINER ERROR]\u001b[0m Python was not found; run without arguments to install from the Microsoft Store, or disable this shortcut from Settings > Apps > Advanced app settings > App execution aliases.",
+    "\u001b[32m[TRAINER]\u001b[0m Training process exited with code 9009",
+    "\u001b[35m[SYNTH-GEN]\u001b[0m Generated 15 high-quality synthetic JSONL records.",
+    "\u001b[32m[TRAINER]\u001b[0m Starting local training for project wbwmv2smg...",
+    "\u001b[31m[TRAINER ERROR]\u001b[0m Python was not found; run without arguments to install from the Microsoft Store, or disable this shortcut from Settings > Apps > Advanced app settings > App execution aliases.",
+    "\u001b[32m[TRAINER]\u001b[0m Training process exited with code 9009",
+    "\u001b[32m[TRAINER]\u001b[0m Starting local training for project njska41hj...",
+    "\u001b[31m[TRAINER ERROR]\u001b[0m Python was not found; run without arguments to install from the Microsoft Store, or disable this shortcut from Settings > Apps > Advanced app settings > App execution aliases.",
+    "\u001b[32m[TRAINER]\u001b[0m Training process exited with code 9009"
+  ],
+  "telemetry": {
+    "coherence": 1,
+    "entropy": 0,
+    "aggregateThroughput": 60,
+    "activeWorkerCount": 0,
+    "securityScore": 0.99,
+    "healthSong": [
+      0.5858407406797371,
+      0.6519723116868598,
+      0.5802966472441896,
+      0.4386274297499382,
+      0.3591300914861331,
+      0.4168095256906405,
+      0.5605509336170582,
+      0.6601145347741865,
+      0.6258774204781159,
+      0.49123244277899425,
+      0.3818869802851484,
+      0.4002881539998665,
+      0.5314334167300799,
+      0.6566638257878792,
+      0.6627585276740272,
+      0.5460294886404399,
+      0.4157122559099362,
+      0.3935352993251138,
+      0.501803417554666,
+      0.642890809061234,
+      0.6889977838104038,
+      0.5996492089098797,
+      0.458907159130022,
+      0.39808463303209746,
+      0.4750169876719705,
+      0.6208883780443556,
+      0.7035007276201477,
+      0.6488160302446161,
+      0.5090265515523043,
+      0.4145695006395963,
+      0.45420366156351,
+      0.5934049766117797,
+      0.7061078057476637,
+      0.690609094678239,
+      0.5630736939436493,
+      0.44267246987852454,
+      0.44201715968853017,
+      0.563625659599112,
+      0.6976070826776948,
+      0.7226949334917018,
+      0.6177389647601695,
+      0.4811506171645028,
+      0.4404239946336024,
+      0.5349183731608181,
+      0.6796714639702643,
+      0.7435133499936994,
+      0.6696635027020017,
+      0.5279345381780209
+    ],
+    "lastTick": "2026-05-23T15:46:16.305Z"
+  }
+}

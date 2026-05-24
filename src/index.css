@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;700&family=Space+Grotesk:wght@300;400;500;600;700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, monospace;
+  
+  --color-app-bg: var(--app-bg);
+  --color-app-surface: var(--app-surface);
+  --color-app-border: var(--app-border);
+  --color-app-text: var(--app-text);
+  --color-app-primary: #00FF9F;
+}
+
+:root {
+  --app-bg: #0A0A0A;
+  --app-surface: #0D0D0D;
+  --app-border: rgba(255, 255, 255, 0.1);
+  --app-text: #F4F4F5;
+}
+
+.theme-light {
+  --app-bg: #FFFFFF;
+  --app-surface: #F9FAFB;
+  --app-border: rgba(0, 0, 0, 0.1);
+  --app-text: #111827;
+}
+
+.theme-high-contrast {
+  --app-bg: #000000;
+  --app-surface: #000000;
+  --app-border: #00FF9F;
+  --app-text: #00FF9F;
+}
+
+@layer utilities {
+  .scanlines {
+    background: linear-gradient(
+      to bottom,
+      transparent 50%,
+      rgba(0, 255, 159, 0.05) 50%
+    );
+    background-size: 100% 4px;
+    pointer-events: none;
+    animation: scanline 8s linear infinite;
+  }
+
+  @keyframes scanline {
+    0% { background-position: 0 0; }
+    100% { background-position: 0 100%; }
+  }
+
+  .custom-scrollbar::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+  }
+
+  .custom-scrollbar::-webkit-scrollbar-track {
+    background: rgba(0, 0, 0, 0.1);
+  }
+
+  .custom-scrollbar::-webkit-scrollbar-thumb {
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+  }
+
+  .custom-scrollbar::-webkit-scrollbar-thumb:hover {
+    background: rgba(0, 255, 159, 0.2);
+  }
+}
