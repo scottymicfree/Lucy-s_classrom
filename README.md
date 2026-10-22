@@ -1,4 +1,8 @@
 # 🧬 Helix-OS: The AGI Orchestration Suite
+
+> 🌐 **Fenton Lab official website:** [fentonlabai.pages.dev](https://fentonlabai.pages.dev/)  
+> Planned primary domain: `fentonlabai.com` (custom-domain connection pending).
+
 ### Post-Computing Operating System & Agentic Training Studio
 
 Helix-OS is a next-generation "Biological Computing" environment designed for the orchestrating of AGI (Artificial General Intelligence). It transcends traditional IDEs by implementing a multi-ring cryptographic architecture where code doesn't just run—it evolves.
