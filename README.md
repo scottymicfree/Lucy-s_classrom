@@ -1,7 +1,6 @@
 # 🧬 Helix-OS: The AGI Orchestration Suite
 
-> 🌐 **Fenton Lab official website:** [fentonlabai.pages.dev](https://fentonlabai.pages.dev/)  
-> Planned primary domain: `fentonlabai.com` (custom-domain connection pending).
+> 🌐 **Fenton Lab official website:** [fentonlabai.com](https://fentonlabai.com/)
 
 ### Post-Computing Operating System & Agentic Training Studio
 
